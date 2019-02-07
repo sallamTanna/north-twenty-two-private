@@ -16,13 +16,23 @@ class Menu extends Component{
   }
 
   openSubMenu = ()=> {
-    return console.log('fffffffffffff');
+    // var subMenu = document.getElementsByClassName('sub-menu')[0];
+    //
+    // subMenu.addEventListener("click", function() {
+    // this.classList.toggle("active");
+    // var dropdownContent = this.nextElementSibling;
+    // if (dropdownContent.style.display === "block") {
+    // dropdownContent.style.display = "none";
+    // } else {
+    // dropdownContent.style.display = "block";
+    // }
+    // });
   }
 
   render() {
       return <section>
-       <section className="hamburger-icon">
-        <div className="hamburger-box" onClick={this.openMenu}>
+       <section className="hamburger-icon"  onClick={this.openMenu}>
+        <div className="hamburger-box">
           <span></span>
           <span></span>
           <span></span>
@@ -31,15 +41,20 @@ class Menu extends Component{
 
         <nav className="links-box">
           <ul className="main-ul">
-            <li onClick={this.openSubMenu}><a href="#">HOME</a></li>
-            <li onClick={this.openSubMenu}><a href="#">WATCHES</a></li>
-            <li onClick={this.openSubMenu}><a href="#">WRISTBANDS</a></li>
-            <li onClick={this.openSubMenu}><a href="#">OUR STORY</a></li>
-            <li onClick={this.openSubMenu}><a href="#">#NORTHTWENTYTWO</a></li>
-            <li onClick={this.openSubMenu}><a href="#">JOURNAL</a></li>
-            <li onClick={this.openSubMenu}><a href="#">SUPPORT</a></li>
+            <li><a href="#">HOME</a></li>
+            <li className="sub-menu-btn">WATCHES</li>
+            <div className="sub-menu">
+              <li><a>ALL WATCHES</a></li>
+              <li><a>WOMEN'S</a></li>
+              <li><a>MEN'S</a></li>
+            </div>
+            <li><a href="#">WRISTBANDS</a></li>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="#">#NORTHTWENTYTWO</a></li>
+            <li><a href="#">JOURNAL</a></li>
+            <li><a href="#">SUPPORT</a></li>
           </ul>
-          <footer className="navFooter">
+          <footer className="nav-footer">
             © 2017 GILLBO GROUP AB. ALL RIGHTS RESERVED.
           </footer>
         </nav>
