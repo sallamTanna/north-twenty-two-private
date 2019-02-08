@@ -25,7 +25,9 @@ class Menu extends Component{
         </div>
         </section>
 
-      
+        <section className="colse-icon">
+          <i class="fas fa-times-circle"></i>
+        </section>
 
         <nav className="links-box">
           <ul className="main-ul">
