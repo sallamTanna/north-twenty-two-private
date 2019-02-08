@@ -15,20 +15,6 @@ class Menu extends Component{
     hamburgerIcon.style.display = "none";
   }
 
-  openSubMenu = ()=> {
-    // var subMenu = document.getElementsByClassName('sub-menu')[0];
-    //
-    // subMenu.addEventListener("click", function() {
-    // this.classList.toggle("active");
-    // var dropdownContent = this.nextElementSibling;
-    // if (dropdownContent.style.display === "block") {
-    // dropdownContent.style.display = "none";
-    // } else {
-    // dropdownContent.style.display = "block";
-    // }
-    // });
-  }
-
   render() {
       return <section>
        <section className="hamburger-icon"  onClick={this.openMenu}>
@@ -38,6 +24,8 @@ class Menu extends Component{
           <span></span>
         </div>
         </section>
+
+      
 
         <nav className="links-box">
           <ul className="main-ul">
