@@ -136,12 +136,12 @@
   visibility: hidden;
   position: absolute;
   top: 3%;
-  left: 90%;
+  left: 29%;
 }
 
 .colse-icon i {
   font-size: 20px;
-  color: #2f3039;
+  color: #f7f7f7;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -180,6 +180,7 @@
 
   .colse-icon i {
     font-size: 25px;
+    color: #303030;
   }
 }
 
