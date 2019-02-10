@@ -11,22 +11,15 @@ var closeIcon = document.getElementsByClassName('colse-icon')[0];
 body.addEventListener('click', (e)=>{
   // To prevent closing the "linksBox" then we click on it, and close it whereever we click
   if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == html) {
-    console.log('vvvvvvvvvvvv');
       e.stopPropagation();
   }
+
   else if(e.target == subMenuBtn) {
     if (subMenu.style.display === "block") {
     subMenu.style.display = "none";
     } else {
     subMenu.style.display = "block";
     }
-  }
-
-   if(html.style.width == "425px") {
-    console.log('sssssssssssssssssssssssss');
-    hamburgerIcon.style.display = "none";
-    closeIcon.style.visibility = "visible";
-    closeIcon.style.display = "block";
   }
 
   else {
