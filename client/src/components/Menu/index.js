@@ -11,13 +11,23 @@ class Menu extends Component{
   openMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
     var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
+    var closeIcon = document.getElementsByClassName('colse-icon')[0];
     linksBox.style.display = "block";
     hamburgerIcon.style.display = "none";
+    closeIcon.style.visibility = "visible";
+
+  }
+
+  closeMenu = ()=> {
+    var linksBox = document.getElementsByClassName('links-box')[0];
+    var closeIcon = document.getElementsByClassName('colse-icon')[0];
+    linksBox.style.display = "none";
+    closeIcon.style.visibility = "hidden";
   }
 
   render() {
       return <section>
-       <section className="hamburger-icon"  onClick={this.openMenu}>
+       <section className="hamburger-icon" onClick={this.openMenu}>
         <div className="hamburger-box">
           <span></span>
           <span></span>
@@ -25,11 +35,10 @@ class Menu extends Component{
         </div>
         </section>
 
-        <section className="colse-icon">
+        <nav className="links-box">
+        <section className="colse-icon" onClick={this.closeMenu}>
           <i class="fas fa-times-circle"></i>
         </section>
-
-        <nav className="links-box">
           <ul className="main-ul">
             <li><a href="#">HOME</a></li>
             <li className="sub-menu-btn">WATCHES</li>
