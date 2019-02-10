@@ -4,9 +4,6 @@ import './style.css';
 import LogoText from './LogoText.png';
 
 class Menu extends Component{
-  constructor(props){
-    super(props)
-  }
 
   openMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
