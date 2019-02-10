@@ -2,16 +2,20 @@ import React, { Component } from 'react';
 import './style.css';
 
 class Cart extends Component {
-    state = {
-      cartNumber: 1,
+  state = {
+    cartNumber: 0,
   }
 
-render(){
-  return <section className="cart-main-section">
-    <span>cart</span>
-    <span>{this.state.cartNumber}</span>
-  </section>
-}
+  openCartMenu = ()=>{
+    console.log('ddddddddd');
+  }
+
+  render() {
+    return <section className="cart-main-section" onClick={this.openCartMenu}>
+      <span className="cart-text">cart</span>
+      <span>{this.state.cartNumber}</span>
+    </section>
+  }
 }
 
 export default Cart;
