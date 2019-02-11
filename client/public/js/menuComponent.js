@@ -9,9 +9,13 @@ var navFooter = document.getElementsByClassName('nav-footer')[0];
 var closeIcon = document.getElementsByClassName('colse-icon')[0];
 
 body.addEventListener('click', (e)=>{
+
+  if (window.innerWidth > 1024) {
+    closeIcon.style.display = "none";
+  }
+
   // To prevent closing the "linksBox" then we click on it, and close it whereever we click
   if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == html) {
-      e.stopPropagation();
   }
 
   else if(e.target == subMenuBtn) {
