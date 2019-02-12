@@ -41,19 +41,22 @@
 }
 
 .carts-box {
+  position: absolute;
   width: 438px;
-  height: 596px;
+  height: 100%;
   background: #2f3039;
   display: none;
-  padding-bottom: 30px;
-  position: absolute;
   top: 0;
   right: 0;
 }
 
 .total {
+  width: 86.301%;
+  display: block;
   padding: 0 30px;
   font-family: Montserrat,Verdana, Geneva, sans-serif;
+  position: absolute;
+  bottom: 30px;
 }
 
 .total a {
