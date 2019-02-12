@@ -23,7 +23,7 @@ class Cart extends Component {
       </section>
 
       <section className="carts-box">
-        <div className="carts-content">
+        <div className="carts">
         </div>
 
         <div className="total">
