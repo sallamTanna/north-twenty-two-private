@@ -6,7 +6,6 @@ var mainUl = document.getElementsByClassName('main-ul')[0];
 var subMenuBtn = document.getElementsByClassName('sub-menu-btn')[0];
 var subMenu = document.getElementsByClassName('sub-menu')[0];
 var navFooter = document.getElementsByClassName('nav-footer')[0];
-var closeIcon = document.getElementsByClassName('colse-icon')[0];
 
 body.addEventListener('click', (e)=>{
 
