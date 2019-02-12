@@ -39,3 +39,11 @@
   color: #fff;
   line-height: 18px;
 }
+
+.carts-box {
+  width: 438px;
+  height: 596px;
+  background: #2f3039;
+  display: none;
+  padding-bottom: 30px;
+}
