@@ -7,19 +7,23 @@ class Cart extends Component {
   }
 
   openCartMenu = ()=>{
-    console.log('ddddddddd');
     var cartsBox = document.getElementsByClassName('carts-box')[0];
+    var cartIcon = document.getElementsByClassName('cart-icon')[0];
     cartsBox.style.display = "block";
+    cartIcon.style.display = "none";
   }
 
   render() {
-    return <section className="cart-main-section" onClick={this.openCartMenu}>
-      <span className="cart-text">cart</span>
-      <span>{this.state.cartNumber}</span>
+    return <section>
+
+      <section onClick={this.openCartMenu} className="cart-icon">
+        <span className="cart-text">cart</span>
+        <span>{this.state.cartNumber}</span>
+      </section>
 
       <section className="carts-box">
-    
       </section>
+
 
     </section>
   }

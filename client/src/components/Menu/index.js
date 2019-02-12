@@ -38,18 +38,18 @@ class Menu extends Component{
           <i class="fas fa-times-circle"></i>
         </section>
         <ul className="main-ul">
-          <li><a href="#">HOME</a></li>
+          <li><a href="#HOME">HOME</a></li>
           <li className="sub-menu-btn">WATCHES</li>
           <div className="sub-menu">
-            <li><a>ALL WATCHES</a></li>
-            <li><a>WOMEN'S</a></li>
-            <li><a>MEN'S</a></li>
+            <li><a href="#ALL WATCHES">ALL WATCHES</a></li>
+            <li><a href="#WOMEN'S">WOMEN'S</a></li>
+            <li><a href="#MEN'S">MEN'S</a></li>
           </div>
-          <li><a href="#">WRISTBANDS</a></li>
-          <li><a href="#">OUR STORY</a></li>
-          <li><a href="#">#NORTHTWENTYTWO</a></li>
-          <li><a href="#">JOURNAL</a></li>
-          <li><a href="#">SUPPORT</a></li>
+          <li><a href="#WRISTBANDS">WRISTBANDS</a></li>
+          <li><a href="#OUR STORY">OUR STORY</a></li>
+          <li><a href="#NORTHTWENTYTWO">#NORTHTWENTYTWO</a></li>
+          <li><a href="#JOURNAL">JOURNAL</a></li>
+          <li><a href="#SUPPORT">SUPPORT</a></li>
         </ul>
         <footer className="nav-footer">
           © 2017 GILLBO GROUP AB. ALL RIGHTS RESERVED.

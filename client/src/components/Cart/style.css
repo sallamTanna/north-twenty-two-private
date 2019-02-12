@@ -1,18 +1,18 @@
-.cart-main-section {
+.cart-icon {
   position: absolute;
   right: 160px;
   top: 29px;
 }
 
-.cart-main-section:hover{
+.cart-icon:hover{
   cursor: pointer;
 }
 
-.cart-main-section:hover > .cart-text {
+.cart-icon:hover > .cart-text {
   color:  #7396b0;
 }
 
-.cart-main-section > span:nth-child(1) {
+.cart-icon > span:nth-child(1) {
   text-transform: uppercase;
   font-family: 'Montserrat';
   letter-spacing: 1px;
@@ -23,7 +23,7 @@
   color: #303030;
 }
 
-.cart-main-section > span:nth-child(2) {
+.cart-icon > span:nth-child(2) {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -46,4 +46,7 @@
   background: #2f3039;
   display: none;
   padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
