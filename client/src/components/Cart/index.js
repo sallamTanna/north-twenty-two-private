@@ -7,7 +7,6 @@ class Cart extends Component {
   }
 
   openCartMenu = ()=>{
-    console.log('ddddddddd');
   }
 
   render() {
