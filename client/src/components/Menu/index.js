@@ -12,24 +12,19 @@ class Menu extends Component{
     linksBox.style.display = "block";
     hamburgerIcon.style.display = "none";
     closeIcon.style.visibility = "visible";
-
   }
 
   closeMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
     var closeIcon = document.getElementsByClassName('colse-icon')[0];
+    var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
     linksBox.style.display = "none";
     closeIcon.style.visibility = "hidden";
-    // closeIcon.style.visibility = "hidden";
+    hamburgerIcon.style.display = "block";
   }
 
   render() {
     return <section>
-<<<<<<< Updated upstream
-    
-=======
-
->>>>>>> Stashed changes
       <section className="hamburger-icon" onClick={this.openMenu}>
         <div className="hamburger-box">
           <span></span>
