@@ -24,6 +24,7 @@ class Menu extends Component{
 
   render() {
     return <section>
+    
       <section className="hamburger-icon" onClick={this.openMenu}>
         <div className="hamburger-box">
           <span></span>
@@ -54,6 +55,7 @@ class Menu extends Component{
           © 2017 GILLBO GROUP AB. ALL RIGHTS RESERVED.
         </footer>
       </nav>
+
     </section>
   }
 }
