@@ -20,11 +20,16 @@ class Menu extends Component{
     var closeIcon = document.getElementsByClassName('colse-icon')[0];
     linksBox.style.display = "none";
     closeIcon.style.visibility = "hidden";
+    // closeIcon.style.visibility = "hidden";
   }
 
   render() {
     return <section>
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
       <section className="hamburger-icon" onClick={this.openMenu}>
         <div className="hamburger-box">
           <span></span>
