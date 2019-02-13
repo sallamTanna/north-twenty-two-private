@@ -8,6 +8,10 @@ var navFooter = document.getElementsByClassName('nav-footer')[0];
 var closeIcon = document.getElementsByClassName('colse-icon')[0];
 var cartsBox = document.getElementsByClassName('carts-box')[0];
 var cartIcon = document.getElementsByClassName('cart-icon')[0];
+var cartMainSection = document.getElementsByClassName('cart-main-section')[0];
+var carts = document.getElementsByClassName('carts')[0];
+var oneCartMainSection = document.getElementsByClassName('one-cart-main-section')[0];
+var total = document.getElementsByClassName('total')[0];
 
 html.addEventListener('click', (e)=>{
 
@@ -16,7 +20,7 @@ html.addEventListener('click', (e)=>{
   }
 
   // To prevent closing the "linksBox" then we click on it, and close it whereever we click
-  if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == cartsBox) {
+  if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == cartsBox || e.target == cartMainSection || e.target == carts || e.target == total || e.target == oneCartMainSection) {
      e.stopPropagation();
   }
 

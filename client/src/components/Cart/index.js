@@ -16,7 +16,7 @@ class Cart extends Component {
   }
 
   render() {
-    return <section>
+    return <section className="cart-main-section">
 
       <section className="cart-icon"  onClick={this.openCartMenu}>
         <span className="cart-text">cart</span>
