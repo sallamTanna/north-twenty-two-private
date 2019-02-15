@@ -8,7 +8,7 @@ class Menu extends Component{
   openMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
     var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
-    var closeIcon = document.getElementsByClassName('colse-icon')[0];
+    var closeIcon = document.getElementsByClassName('menu-close-icon')[0];
     linksBox.style.display = "block";
     hamburgerIcon.style.display = "none";
     closeIcon.style.visibility = "visible";
@@ -16,7 +16,7 @@ class Menu extends Component{
 
   closeMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
-    var closeIcon = document.getElementsByClassName('colse-icon')[0];
+    var closeIcon = document.getElementsByClassName('menu-close-icon')[0];
     var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
     linksBox.style.display = "none";
     closeIcon.style.visibility = "hidden";
@@ -34,7 +34,7 @@ class Menu extends Component{
       </section>
 
       <nav className="links-box">
-        <section className="colse-icon" onClick={this.closeMenu}>
+        <section className="menu-close-icon" onClick={this.closeMenu}>
           <i class="fas fa-times-circle"></i>
         </section>
         <ul className="main-ul">

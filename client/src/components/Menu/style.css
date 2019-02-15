@@ -132,16 +132,11 @@
   height: 30px;
 }
 
-.colse-icon {
+.menu-close-icon {
   visibility: hidden;
   position: absolute;
   top: 3%;
   left: 29%;
-}
-
-.colse-icon i {
-  font-size: 20px;
-  color: #f7f7f7;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -173,14 +168,18 @@
     display: none;
   }
 
-  .colse-icon {
+  .menu-close-icon {
     top: 5%;
-    left: 90%;
+    left: 3%;
   }
 
-  .colse-icon i {
+  .menu-close-icon i {
     font-size: 25px;
     color: #303030;
+  }
+
+  .hamburger-icon {
+    left: 30px;
   }
 }
 

@@ -11,8 +11,19 @@ class Cart extends Component {
   openCartMenu = ()=>{
     var cartsBox = document.getElementsByClassName('carts-box')[0];
     var cartIcon = document.getElementsByClassName('cart-icon')[0];
+    var cartCloseIcon = document.getElementsByClassName('cart-close-icon')[0];
     cartsBox.style.display = "block";
     cartIcon.style.display = "none";
+    cartCloseIcon.style.visibility = "visible";
+  }
+
+  closeCartMenu = ()=>{
+    var cartsBox = document.getElementsByClassName('carts-box')[0];
+    var cartIcon = document.getElementsByClassName('cart-icon')[0];
+    var cartCloseIcon = document.getElementsByClassName('cart-close-icon')[0];
+    cartsBox.style.display = "none";
+    cartIcon.style.display = "block";
+    cartCloseIcon.style.visibility = "hidden";
   }
 
   render() {
@@ -23,8 +34,15 @@ class Cart extends Component {
         <span>{this.state.cartNumber}</span>
       </section>
 
+      <section className="cart-close-icon" onClick={this.closeCartMenu}>
+        <i class="fas fa-times-circle"></i>
+      </section>
+
       <section className="carts-box">
         <div className="carts">
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
           <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
         </div>
 
