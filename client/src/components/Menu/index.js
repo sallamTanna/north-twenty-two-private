@@ -9,15 +9,23 @@ class Menu extends Component{
     var linksBox = document.getElementsByClassName('links-box')[0];
     var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
     var closeIcon = document.getElementsByClassName('menu-close-icon')[0];
+    var cartCloseIcon = document.getElementsByClassName('cart-close-icon')[0];
+    var cartsBox = document.getElementsByClassName('carts-box')[0];
+    var cartIcon = document.getElementsByClassName('cart-icon')[0];
+
     linksBox.style.display = "block";
     hamburgerIcon.style.display = "none";
     closeIcon.style.visibility = "visible";
+    cartCloseIcon.style.visibility = "hidden";
+    cartsBox.style.display = "none";
+    cartIcon.style.display = "block";
   }
 
   closeMenu = ()=> {
     var linksBox = document.getElementsByClassName('links-box')[0];
     var closeIcon = document.getElementsByClassName('menu-close-icon')[0];
     var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
+
     linksBox.style.display = "none";
     closeIcon.style.visibility = "hidden";
     hamburgerIcon.style.display = "block";
@@ -33,10 +41,11 @@ class Menu extends Component{
         </div>
       </section>
 
+      <section className="menu-close-icon" onClick={this.closeMenu}>
+      <i class="fas fa-times-circle"></i>
+      </section>
+
       <nav className="links-box">
-        <section className="menu-close-icon" onClick={this.closeMenu}>
-          <i class="fas fa-times-circle"></i>
-        </section>
         <ul className="main-ul">
           <li><a href="#HOME">HOME</a></li>
           <li className="sub-menu-btn">WATCHES</li>

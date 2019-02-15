@@ -12,15 +12,23 @@ class Cart extends Component {
     var cartsBox = document.getElementsByClassName('carts-box')[0];
     var cartIcon = document.getElementsByClassName('cart-icon')[0];
     var cartCloseIcon = document.getElementsByClassName('cart-close-icon')[0];
+    var menuCloseIcon = document.getElementsByClassName('menu-close-icon')[0];
+    var linksBox = document.getElementsByClassName('links-box')[0];
+    var hamburgerIcon = document.getElementsByClassName('hamburger-icon')[0];
+
     cartsBox.style.display = "block";
     cartIcon.style.display = "none";
     cartCloseIcon.style.visibility = "visible";
+    menuCloseIcon.style.visibility = "hidden";
+    linksBox.style.display = "none";
+    hamburgerIcon.style.display = "block";
   }
 
   closeCartMenu = ()=>{
     var cartsBox = document.getElementsByClassName('carts-box')[0];
     var cartIcon = document.getElementsByClassName('cart-icon')[0];
     var cartCloseIcon = document.getElementsByClassName('cart-close-icon')[0];
+
     cartsBox.style.display = "none";
     cartIcon.style.display = "block";
     cartCloseIcon.style.visibility = "hidden";
