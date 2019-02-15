@@ -19,6 +19,16 @@ html.addEventListener('click', (e)=>{
   if (window.innerWidth > 1024) {
     menuCloseIcon.style.display = "none";
     cartCloseIcon.style.display = "none";
+    // To prevent closing the "linksBox" then we click on it, and close it whereever we click
+    if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == cartsBox || e.target == cartMainSection || e.target == carts || e.target == total || e.target == oneCartMainSection) {
+       e.stopPropagation();
+    }
+    else {
+      linksBox.style.display = "none";
+      hamburgerIcon.style.display = "block";
+      cartsBox.style.display = "none";
+      cartIcon.style.display = "block";
+    }
   }
 
   // To prevent closing the "linksBox" then we click on it, and close it whereever we click
@@ -34,10 +44,4 @@ html.addEventListener('click', (e)=>{
     }
   }
 
-  else {
-    linksBox.style.display = "none";
-    hamburgerIcon.style.display = "block";
-    cartsBox.style.display = "none";
-    cartIcon.style.display = "block";
-  }
 })
