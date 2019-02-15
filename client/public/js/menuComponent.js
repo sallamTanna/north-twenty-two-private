@@ -23,6 +23,13 @@ html.addEventListener('click', (e)=>{
     if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == cartsBox || e.target == cartMainSection || e.target == carts || e.target == total || e.target == oneCartMainSection) {
        e.stopPropagation();
     }
+    else if(e.target == subMenuBtn) {
+      if (subMenu.style.display === "block") {
+      subMenu.style.display = "none";
+      } else {
+      subMenu.style.display = "block";
+      }
+    }
     else {
       linksBox.style.display = "none";
       hamburgerIcon.style.display = "block";
@@ -36,12 +43,6 @@ html.addEventListener('click', (e)=>{
      e.stopPropagation();
   }
 
-  else if(e.target == subMenuBtn) {
-    if (subMenu.style.display === "block") {
-    subMenu.style.display = "none";
-    } else {
-    subMenu.style.display = "block";
-    }
-  }
+
 
 })
