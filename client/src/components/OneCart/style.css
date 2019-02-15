@@ -73,3 +73,33 @@
   cursor: pointer;
   font-size: 11px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .one-cart-main-section {
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .one-cart-main-section {
+    width: 92%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .one-cart-main-section {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .one-cart-main-section {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .one-cart-main-section {
+    width: 81%;
+  }
+}

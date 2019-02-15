@@ -57,6 +57,7 @@
   font-family: Montserrat,Verdana, Geneva, sans-serif;
   position: absolute;
   bottom: 30px;
+  background: #2f3039;
 }
 
 .total a {
@@ -105,4 +106,49 @@
 .total a:nth-child(3) {
   background: #7295b0;
   color: #fff;
+}
+
+.carts {
+  height: 402px;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .carts-box {
+    width: 100%;
+    margin-top: 77px;
+    height: 90%;
+  }
+
+  .total {
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .total {
+    width: 92%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .total {
+    width: 85%;
+  }
+
+  .one-cart-main-section {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .total {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .total {
+    width: 81.25%;
+  }
 }

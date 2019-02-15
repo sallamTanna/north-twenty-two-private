@@ -26,6 +26,9 @@ class Cart extends Component {
       <section className="carts-box">
         <div className="carts">
           <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
+          <OneCart name={"Saltaro - Gold Mesh"} price={239} quantity={1} src={"https://northtwentytwo.com/wp-content/uploads/2017/01/Saltar%C3%B6-M-1-1024x1024.jpg"}/>
         </div>
 
         <div className="total">
