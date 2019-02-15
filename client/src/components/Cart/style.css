@@ -157,6 +157,14 @@
   .one-cart-main-section {
     width: 85%;
   }
+
+  .cart-close-icon {
+    left: 89%;
+  }
+
+  .cart-icon {
+    right: 42px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
