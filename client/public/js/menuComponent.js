@@ -42,15 +42,4 @@ html.addEventListener('click', (e)=>{
   if(e.target == linksBox || e.target == mainUl || e.target == navFooter || e.target == cartsBox || e.target == cartMainSection || e.target == carts || e.target == total || e.target == oneCartMainSection) {
      e.stopPropagation();
   }
-  // else if(e.target == hamburgerIcon) {
-  //   cartsBox.style.display = "none";
-  //   cartCloseIcon.style.visibility = "hidden";
-  // }
-  // else if(e.target == cartIcon) {
-  //   linksBox.style.display = "none";
-  //   menuCloseIcon.style.visibility = "hidden";
-  // }
-
-
-
 })

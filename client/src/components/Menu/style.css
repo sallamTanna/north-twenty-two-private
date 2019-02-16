@@ -50,8 +50,7 @@
   background: #2f3039;
   display: none;
   padding-bottom: 30px;
-  transition: opacity 0.24s ease-in-out;
-
+  animation: linksBoxAnimation .5s;
 }
 
 .links-box ul {
@@ -66,6 +65,8 @@
   height: 19px;
   padding-top: 10px;
   padding-bottom: 10px;
+  animation: LiAnimation .5s;
+
 }
 
 .sub-menu > li {
@@ -74,6 +75,7 @@
 
 .links-box > ul > li:not(:last-child), .sub-menu > li {
   border-bottom: .1px solid #43444c;
+
 }
 
 .links-box  ul  li  a, .links-box  ul  li, .sub-menu li, .sub-menu li a {
@@ -84,6 +86,7 @@
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: 300;
+
 }
 
 .links-box ul li:hover > a, .sub-menu li:hover > a {
@@ -213,5 +216,23 @@
     font-style: normal;
     font-size: 11px;
     font-weight: 300;
+  }
+}
+
+@keyframes linksBoxAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 438px;
+  }
+}
+
+@keyframes LiAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 318px;
   }
 }
