@@ -129,12 +129,6 @@
   display: none;
 }
 
-/* For the image */
-.LogoText {
-  width: 200px;
-  height: 30px;
-}
-
 .menu-close-icon {
   visibility: hidden;
   position: absolute;

@@ -8,7 +8,9 @@ class Header extends Component {
   render(){
     return <section className="header-main-section">
       <Menu />
-      <img src={LogoText} />
+      <div>
+        <img src={LogoText} className="LogoText"/>
+      </div>
       <Cart />
     </section>
   }

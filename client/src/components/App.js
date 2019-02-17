@@ -1,13 +1,13 @@
 import React from 'react';
-import Menu from './Menu';
-import Cart from './Cart';
+// import Menu from './Menu';
+// import Cart from './Cart';
+import Header from './Header';
 
 class App extends React.Component {
 
   render() {
     return <div className="app">
-      <Menu />
-      <Cart />
+      <Header />
     </div>;
   }
 }
