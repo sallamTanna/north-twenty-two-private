@@ -55,6 +55,7 @@
   display: none;
   top: 0;
   right: 0;
+  animation: cartsBoxAnimation .5s;
 }
 
 .total {
@@ -118,8 +119,10 @@
 .carts {
   height: 402px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
+/* Medis Queries */
 @media only screen and (max-width: 1024px) {
   .carts-box {
     width: 100%;
@@ -176,5 +179,15 @@
 @media only screen and (max-width: 320px) {
   .total {
     width: 81.25%;
+  }
+}
+
+/* Animations */
+@keyframes cartsBoxAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 438px;
   }
 }
