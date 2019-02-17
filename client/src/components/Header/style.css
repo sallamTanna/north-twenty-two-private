@@ -1,9 +1,10 @@
-.header-main-section div {
-  text-align: center;
+.header-main-section {
+  /* position: fixed; */
 }
 
 .LogoText {
+  margin: 0 auto;
   width: 200px;
   height: 30px;
-  margin: 0 auto;
+  display: block;
 }
