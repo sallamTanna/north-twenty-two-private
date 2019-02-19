@@ -64,7 +64,7 @@
   display: block;
   padding: 0 30px;
   font-family: Montserrat,Verdana, Geneva, sans-serif;
-  bottom: -16px;
+  bottom: -2%;
   position: relative;
   background: #2f3039;
 }
@@ -128,8 +128,8 @@
 @media only screen and (max-width: 1024px) {
   .carts-box {
     width: 100%;
-    margin-top: 77px;
-    height: 90%;
+    margin-top: 75px;
+    height: 100vh;
   }
 
   .total {
@@ -141,7 +141,7 @@
   }
 
   .cart-close-icon {
-    top: 5%;
+    top: 33%;
     left: 95%;
     color: #2f3039;
     font-size: 20px;
@@ -151,6 +151,10 @@
 @media only screen and (max-width: 768px) {
   .total {
     width: 92%;
+  }
+
+  .carts {
+    height: 48vh;
   }
 }
 

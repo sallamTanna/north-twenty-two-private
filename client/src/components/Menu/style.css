@@ -171,7 +171,7 @@
   }
 
   .menu-close-icon {
-    top: 5%;
+    top: 33%;
     left: 3%;
   }
 
@@ -202,6 +202,24 @@
   .links-box ul {
     padding: 0;
     padding-top: 20px;
+  }
+  .hamburger-icon {
+    width: 30px;
+    height: 30px;
+    left: 15px;
+  }
+  .hamburger-icon > .hamburger-box {
+    position: relative;
+    top: -5px;
+    left: 3px;
+  }
+  .hamburger-icon > .hamburger-box > span {
+    width: 12px;
+    opacity: .7;
+    border-radius: 100px;
+  }
+  .hamburger-icon > .hamburger-box > span:nth-child(2) {
+    width: 10px;
   }
 }
 
