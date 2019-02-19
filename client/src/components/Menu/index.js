@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import reactDom from 'react-dom';
 import './style.css';
-import LogoText from './LogoText.png';
 
 class Menu extends Component{
 

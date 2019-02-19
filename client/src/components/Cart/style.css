@@ -50,12 +50,13 @@
 .carts-box {
   position: absolute;
   width: 438px;
-  height: 100%;
+  height: 100vh;
   background: #2f3039;
   display: none;
   top: 0;
   right: 0;
   animation: cartsBoxAnimation .5s;
+  background: #2f3039;
 }
 
 .total {
@@ -63,8 +64,8 @@
   display: block;
   padding: 0 30px;
   font-family: Montserrat,Verdana, Geneva, sans-serif;
-  position: absolute;
-  bottom: 30px;
+  bottom: -16px;
+  position: relative;
   background: #2f3039;
 }
 
@@ -120,6 +121,7 @@
   height: 402px;
   overflow-y: auto;
   overflow-x: hidden;
+  background: #2f3039;
 }
 
 /* Medis Queries */

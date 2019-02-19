@@ -47,6 +47,7 @@
 .links-box {
   width: 438px;
   height: 595px;
+  position: relative;
   background: #2f3039;
   display: none;
   padding-bottom: 30px;
@@ -127,12 +128,6 @@
 
 .sub-menu li:nth-child(2)::after {
   display: none;
-}
-
-/* For the image */
-.LogoText {
-  width: 200px;
-  height: 30px;
 }
 
 .menu-close-icon {
