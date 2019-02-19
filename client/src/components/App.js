@@ -1,7 +1,6 @@
 import React from 'react';
-// import Menu from './Menu';
-// import Cart from './Cart';
 import Header from './Header';
+import './App.css';
 
 class App extends React.Component {
 

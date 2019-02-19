@@ -6,14 +6,11 @@ import './style.css';
 
 class Header extends Component {
   render(){
-    return <section className="header-main-section">
+    return <header className="header-main-section">
       <Menu />
-      <img src={LogoText} className="LogoText"/>
-       <Cart />
-
-
-
-    </section>
+      <a href="#"><img src={LogoText} className="LogoText"/></a>
+      <Cart />
+    </header>
   }
 }
 

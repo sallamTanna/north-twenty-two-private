@@ -47,6 +47,7 @@
 .links-box {
   width: 438px;
   height: 595px;
+  position: relative;
   background: #2f3039;
   display: none;
   padding-bottom: 30px;

@@ -1,10 +1,22 @@
 .header-main-section {
-  /* position: fixed; */
+  height: 75px;
+  width: 100%;
+  position: fixed;
 }
 
-.LogoText {
-  margin: 0 auto;
-  width: 200px;
-  height: 30px;
-  display: block;
+.header-main-section .LogoText {
+   max-height: 30px;
+   max-width: 200px;
+   width: auto;
+   height: auto;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.header-main-section a:hover {
+  cursor: pointer;
 }
