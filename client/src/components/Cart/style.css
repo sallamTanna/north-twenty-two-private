@@ -7,7 +7,7 @@
 
 .cart-icon {
   position: absolute;
-  right: 160px;
+  right: 137px;
   top: 29px;
 }
 
@@ -172,7 +172,11 @@
   }
 
   .cart-icon {
-    right: 42px;
+    right: 38px;
+  }
+
+  .cart-text {
+    display: none;
   }
 }
 
@@ -180,11 +184,17 @@
   .total {
     width: 84%;
   }
+  .cart-icon {
+    right: 34px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
   .total {
     width: 81.25%;
+  }
+  .cart-icon {
+    right: 29px;
   }
 }
 
