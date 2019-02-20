@@ -31,7 +31,7 @@ class Menu extends Component{
   }
 
   render() {
-    return <section>
+    return <menu>
       <section className="hamburger-icon" onClick={this.openMenu}>
         <div className="hamburger-box">
           <span></span>
@@ -64,7 +64,7 @@ class Menu extends Component{
         </footer>
       </nav>
 
-    </section>
+    </menu>
   }
 }
 

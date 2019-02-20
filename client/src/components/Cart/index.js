@@ -35,7 +35,7 @@ class Cart extends Component {
   }
 
   render() {
-    return <section className="cart-main-section">
+    return <aside className="cart-main-section">
 
       <section className="cart-icon"  onClick={this.openCartMenu}>
         <span className="cart-text">cart</span>
@@ -64,8 +64,7 @@ class Cart extends Component {
         </div>
       </section>
 
-
-    </section>
+    </aside>
   }
 }
 
