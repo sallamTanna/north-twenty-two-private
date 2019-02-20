@@ -1,5 +1,73 @@
 .main-image-main-section {
-  height: 100vh;
-  width: 100%;
+  height: 406.250px;
+  width: 81%;
   background: url('https://northtwentytwo.com/wp-content/uploads/2018/06/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+.main-image-main-section > div {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 116px;
+}
+
+.main-image-main-section > div > p:nth-child(1) {
+  padding-top: 2%;
+  font-family: 'Montserrat';
+  line-height: 24px;
+  word-wrap: break-word;
+  padding-top: 22.188px;
+  font-size: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin: -25px 0 24px 0;
+}
+
+.main-image-main-section > div > p:nth-child(2) {
+  margin: -5px 0 40px 0;
+  margin-top: -5px;
+  font-family: 'Majesti', 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+  font-size: 46px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 300 important;
+}
+
+.main-image-main-section > div > p:nth-child(3) {
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  transition: opacity 0.24s ease-in-out;
+  margin: 0 0 24px;
+  word-wrap: break-word;
+}
+
+.main-image-main-section > div > p:nth-child(3) > a {
+  width: 68.500px;
+  font-family: 'Montserrat';
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 15px auto 0;
+}
+
+.main-image-main-section > div > p:nth-child(3)> a:hover {
+  background: #7295b0;
+  border: 2px solid #7295b0;
+  color: #fff;
 }
