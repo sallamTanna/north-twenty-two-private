@@ -6,11 +6,12 @@ import './App.css';
 class App extends React.Component {
 
   render() {
-    return <div className="app">
+    return <main className="app">
       <Header />
-      <p className="app-title">SECURE PAYMENTS & SHIPPING WORLD WIDE</p>
-      <MainImage />
-    </div>;
+      <section className="page-content">
+        <MainImage />
+      </section>
+    </main>
   }
 }
 

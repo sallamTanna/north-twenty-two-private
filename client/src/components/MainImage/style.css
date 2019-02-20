@@ -8,6 +8,22 @@
   padding: 15px 25px;
 }
 
+.app-title {
+  width: 81%;
+  height: 24px;
+  background: #7295b0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 10px;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+}
+
 .main-image-main-section > div {
   margin-left: 0;
   margin-right: 0;
@@ -70,4 +86,26 @@
   background: #7295b0;
   border: 2px solid #7295b0;
   color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .main-image-main-section > div > p:nth-child(2) {
+    font-size: 40px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .app-title {
+    font-size: 8px;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .app-title {
+    font-size: 7px;
+    font-weight: normal;
+  }
 }
