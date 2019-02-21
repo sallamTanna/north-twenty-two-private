@@ -2,6 +2,7 @@
   width: 84.5070422535%;
   margin: 0 auto;
   margin-bottom: 30px;
+  overflow: auto;
 }
 
 .gategory-main-section div:nth-child(1), .gategory-main-section div:nth-child(2), .gategory-main-section div:nth-child(3) {
