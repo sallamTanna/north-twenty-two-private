@@ -1,3 +1,49 @@
-/* 1. https://northtwentytwo.com/wp-content/uploads/2017/11/hers.jpg
-2. https://northtwentytwo.com/wp-content/uploads/2017/11/about.jpg
-3. https://northtwentytwo.com/wp-content/uploads/2017/11/option.jpg */
+.gategory-main-section {
+  width: 84.5070422535%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.gategory-main-section div:nth-child(1) {
+  background: url('https://northtwentytwo.com/wp-content/uploads/2017/11/hers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+  width: 31.5789473684%;
+  height: 360px;
+  float: left;
+}
+
+.gategory-main-section div:nth-child(2) {
+  background: url('https://northtwentytwo.com/wp-content/uploads/2017/11/about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+  width: 31.5789473684%;
+  float: left;
+  height: 360px;
+}
+
+.gategory-main-section div:nth-child(3) {
+  background: url('https://northtwentytwo.com/wp-content/uploads/2017/11/option.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 31.5789473684%;
+  float: left;
+  height: 360px;
+}
+
+.gategory-main-section p {
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400 ;
+  cursor: pointer;
+  letter-spacing: 3px;
+  padding-top: 90% ;
+  text-transform: uppercase;
+}
