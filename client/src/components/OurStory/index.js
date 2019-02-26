@@ -6,11 +6,10 @@ class OurStory extends Component {
     return <section className="ourStory-main-section">
 
       <div>
-        <span></span>
-        <p>BUILT TO LAST</p>
+        <p>built to last</p>
         <h1>Minimalism & Quality</h1>
         <p>We create minimalistic and qualitative wristwear for every individual and occasion. Our team is based in Stockholm, where we design, partially assemble and package all timepieces by hand.</p>
-        <a>read more</a>
+        <a><span>read more</span></a>
       </div>
 
       <div></div>

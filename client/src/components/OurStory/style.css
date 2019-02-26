@@ -1,7 +1,94 @@
 .ourStory-main-section {
   background: blue;
-  width: 81%;
+  width: 84.5%;
   margin: 0 auto;
   height: auto;
-  padding: 0px 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ourStory-main-section div:nth-child(1) {
+  width: 56.338%;
+  background: #f0f4f6;
+  padding: 115px 10% 80px 7%!important;
+}
+
+.ourStory-main-section div:nth-child(1) p:nth-child(1) {
+  display: inline;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 10px;
+  color: #d4bf9a;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.ourStory-main-section div:nth-child(1) p:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  background-color: #2f2f39;
+  width: 40px;
+  margin-right: 15px;
+  vertical-align: middle;
+  height: 2px;
+  position: relative;
+}
+
+.ourStory-main-section div:nth-child(1) h1 {
+  margin-top: 15px;
+  font-family: 'Majesti', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 38px;
+  line-height: 108%;
+  padding-left: 55px;
+  text-align: left;
+  color: #2f3039;
+}
+
+.ourStory-main-section div:nth-child(1) p:nth-child(3) {
+  margin-top: -10px;
+  color: #7f7f7f;
+  padding-left: 60px;
+  letter-spacing: 0.7px;
+  margin: 0 0 24px;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  text-align: inherit;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  opacity: 1;
+  visibility: visible;
+  box-sizing: border-box;
+}
+
+.ourStory-main-section div:nth-child(1) a:nth-child(4) {
+  border-radius: 30px;
+  margin-left: 60px ;
+  padding: 12px 20px  ;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  letter-spacing: 2px;
+  background: #2f3039;
+  border-color: #2f3039;
+  color: #fff;
+  font-size: 10px ;
+  display: inline-block;
+}
+
+.ourStory-main-section div:nth-child(1) a:nth-child(4):hover {
+  cursor: pointer;
+  background: #7295b0;
+}
+
+.ourStory-main-section div:nth-child(1) a:nth-child(4) span {
+  text-transform :uppercase;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300;
 }
