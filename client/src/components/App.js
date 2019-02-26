@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import MainImage from './MainImage';
 import Categories from './Categories';
+import OurStory from './OurStory';
 import './App.css';
 
 class App extends React.Component {
@@ -12,6 +13,7 @@ class App extends React.Component {
       <section className="page-content">
         <MainImage />
         <Categories />
+        <OurStory />
       </section>
     </main>
   }
