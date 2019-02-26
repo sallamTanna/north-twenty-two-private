@@ -4,9 +4,9 @@ import './style.css';
 class Categories extends Component {
   render(){
     return <section className="gategory-main-section">
-    <div><p><a>for here</a></p></div>
-    <div><p><a>for him</a></p></div>
-    <div><p><a>wristbands</a></p></div>
+    <a href="here"><p>for here</p></a>
+    <a href="#him"><p>for him</p></a>
+    <a href="wristbands"><p>wristbands</p></a>
     </section>
   }
 }
