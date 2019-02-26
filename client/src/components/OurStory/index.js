@@ -4,6 +4,7 @@ import './style.css';
 class OurStory extends Component {
   render(){
     return <section className="ourStory-main-section">
+
       <div>
         <span></span>
         <p>BUILT TO LAST</p>
@@ -13,6 +14,7 @@ class OurStory extends Component {
       </div>
 
       <div></div>
+
     </section>
   }
 }
