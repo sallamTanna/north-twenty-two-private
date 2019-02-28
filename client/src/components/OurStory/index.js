@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './style.css';
+import image from './right.jpg';
 
 class OurStory extends Component {
   render(){
     return <section className="ourStory-main-section">
-
       <div>
         <p>built to last</p>
         <h1>Minimalism & Quality</h1>
@@ -12,7 +12,11 @@ class OurStory extends Component {
         <a><span>read more</span></a>
       </div>
 
-      <div></div>
+      <div>
+        <figure>
+          <img src={image} />
+        </figure>
+      </div>
 
     </section>
   }

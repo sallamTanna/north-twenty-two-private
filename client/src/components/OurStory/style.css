@@ -1,16 +1,18 @@
 .ourStory-main-section {
-  background: blue;
   width: 84.5%;
   margin: 0 auto;
   height: auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  height: auto;
+  overflow: auto;
 }
 
-.ourStory-main-section div:nth-child(1) {
+.ourStory-main-section > div:nth-child(1) {
   width: 56.338%;
   background: #f0f4f6;
-  padding: 115px 10% 80px 7%!important;
+  padding: 115px 10% 80px 7%;
+  float: left;
 }
 
 .ourStory-main-section div:nth-child(1) p:nth-child(1) {
@@ -91,4 +93,100 @@
   color: #fff;
   font-size: 10px;
   font-weight: 300;
+}
+
+.ourStory-main-section > div:nth-child(2) {
+  width: 26.6%;
+  background: white;;
+  height: 409px;
+  float: right;
+  position: relative;
+}
+
+.ourStory-main-section > div:nth-child(2) > figure {
+  width: 50%;
+  height: inherit;
+  background: #f0f4f6;
+}
+
+.ourStory-main-section > div:nth-child(2) > figure img{
+  width: 350px;
+  height: 350px;
+  display: block;
+  position: relative;
+  vertical-align: middle;
+  right: 60px;
+  top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ourStory-main-section{
+    width: 85.8826171875%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .ourStory-main-section > div:nth-child(2) {
+    height: 433px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .ourStory-main-section {
+    width: 672.094px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .ourStory-main-section > div:nth-child(1) {
+    width: 91%;
+    padding: 50px 30px 50px 30px;
+  }
+
+  .ourStory-main-section > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .ourStory-main-section {
+    width: 394.25px;
+  }
+
+  .ourStory-main-section div:nth-child(1) h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .ourStory-main-section div:nth-child(1) p:nth-child(3) {
+    font-size: 12px;
+  }
+  .ourStory-main-section > div:nth-child(1) {
+    width: 85.8823%;
+    padding: 40px 30px 40px 30px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .ourStory-main-section {
+    width: 353.75px;
+  }
+  .ourStory-main-section > div:nth-child(1) {
+    width: 83.03886%;
+    padding: 40px 30px 40px 30px;
+  }
+  .ourStory-main-section div:nth-child(1) a:nth-child(4) {
+    padding: 6px 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ourStory-main-section {
+    width: 309.188px;
+  }
+  .ourStory-main-section > div:nth-child(1) {
+    width: 80.59433%;
+    padding: 40px 30px 40px 30px;
+  }
 }
