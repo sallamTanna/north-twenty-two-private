@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import MainImage from './MainImage';
-import OurStory from './OurStory';
 import Categories from './Categories';
 import OurStory from './OurStory';
 import './App.css';
