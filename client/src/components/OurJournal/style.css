@@ -1,0 +1,170 @@
+.our-journal-main-section  {
+  width: 81%;
+  margin: 0 auto;
+}
+
+.our-journal-main-section > figure {
+  float: left;
+  width: 32%;
+}
+
+.our-journal-main-section > figure > a {
+  text-decoration: none;
+  display: table;
+}
+
+.our-journal-main-section > figure > a > div {
+  background: url('https://northtwentytwo.com/wp-content/uploads/2017/11/left.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.our-journal-main-section > figure > a > div > h3 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-family: 'Majesti';
+  margin: 0;
+  line-height: 24px;
+  font-style: normal;
+  position: relative;
+}
+
+.our-journal-main-section > figure > a > div > p {
+  text-align: center;
+  margin-bottom: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  font-weight: 300 !important;
+  color: #fff !important;
+  position: relative;
+}
+
+.our-journal-main-section article {
+  float: right;
+  width: 55.5%;
+  padding: 30px;
+}
+
+.our-journal-main-section article h1 {
+  line-height: 36px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Majesti', 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
+  font-size: 38px;
+  text-align: left;
+  color: #2f3039;
+  margin-bottom: -10px !important;
+}
+
+.our-journal-main-section article h1 a {
+  margin-bottom: 20px;
+}
+
+.our-journal-main-section article h1 a:hover {
+  color: #7295b0;
+  cursor: pointer;
+}
+
+.our-journal-main-section article p {
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  text-align: inherit;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 300 !important;
+  /* margin: 0 0 24px; */
+  word-wrap: break-word;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #202020;
+  opacity: .7;
+}
+
+.our-journal-read-more {
+  text-transform: uppercase;
+  font-family: 'Montserrat' !important;
+  border-radius: 30px !important;
+  font-weight: 300 !important;
+  font-size: 10px !important;
+  letter-spacing: 2px !important;
+  margin: 0px auto 0 !important;
+  padding: 12px 20px !important;
+  text-align: center;
+  line-height: 18px;
+  height: auto;
+  display: inline-block;
+  background: black;
+  border: 2px solid black;
+  color: #fff;
+}
+
+.our-journal-read-more:hover {
+  border: 2px solid #7295b0;
+  background-color: #7295b0;
+}
+
+@media only screen and (max-width: 768px) {
+  .our-journal-main-section {
+    width: 672.094px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .our-journal-main-section {
+    width: 394.25px;
+  }
+
+  .our-journal-main-section article, .our-journal-main-section > figure, .our-journal-main-section > figure > a {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .our-journal-main-section > figure {
+    margin-bottom: 20px;
+  }
+
+  .our-journal-read-more {
+    text-align: center;
+    width: 89%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .our-journal-main-section {
+    width: 353.75px;
+  }
+
+  .our-journal-main-section article h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .our-journal-main-section {
+    width: 309.188px;
+  }
+
+  .our-journal-main-section article h1 {
+    font-size: 22px;
+  }
+
+  .our-journal-main-section article p {
+    font-size: 12px;
+  }
+
+  .our-journal-read-more {
+    width: 85%;
+  }
+}

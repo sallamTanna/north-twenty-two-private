@@ -4,6 +4,7 @@ import MainImage from './MainImage';
 import Categories from './Categories';
 import OurStory from './OurStory';
 import FeaturedProducts from './FeaturedProducts';
+import OurJournal from './OurJournal';
 import './App.css';
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Categories />
         <OurStory />
         <FeaturedProducts />
+        <OurJournal />
       </section>
     </main>
   }
