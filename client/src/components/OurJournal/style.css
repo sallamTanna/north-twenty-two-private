@@ -1,6 +1,8 @@
 .our-journal-main-section  {
   width: 81%;
   margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .our-journal-main-section > figure {
