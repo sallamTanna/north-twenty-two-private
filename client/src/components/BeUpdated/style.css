@@ -3,6 +3,7 @@
   margin: 0 auto;
   height: 433px;
   background: #f0f4f6;
+  margin-bottom: 30px;
 }
 
 .be-updated-main-section > article {
@@ -104,3 +105,78 @@
   line-height: 1.42857143;
   border-radius: 4px;
  }
+
+ @media only screen and (max-width: 1024px) {
+   .be-updated-main-section {
+     width: 85.8826171875%;
+     margin: 0 auto;
+     height: 376px;
+   }
+
+   .main-container div:nth-child(1), .main-container div:nth-child(2) {
+     width: 23.9999999%;
+   }
+
+   .main-container > div:nth-child(2) > form input[type="email"] {
+     width: 100% !important;
+   }
+ }
+
+ @media only screen and (max-width: 768px) {
+   .be-updated-main-section {
+     width: 672.094px;
+     margin: 0 auto;
+     height: 416px;
+   }
+
+   .main-container div:nth-child(1), .main-container div:nth-child(2) {
+     float: none;
+     width: 100%;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+     border: none;
+   }
+
+   .main-container div:nth-child(1) {
+     margin-bottom: 50px;
+   }
+   .main-container > div:nth-child(2) > form input[type="email"] {
+    width: 44% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .be-updated-main-section {
+    width: 394.25px;
+    margin: 0 auto;
+    }
+  .main-container > div:nth-child(2) > form input[type="email"] {
+    width: 81% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .be-updated-main-section {
+    width: 353.75px;
+    margin: 0 auto;
+    height: 361px;
+    }
+  .main-container > div:nth-child(2) > form input[type="email"] {
+    width: 81% !important;
+  }
+  .be-updated-main-section > article > p {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .be-updated-main-section {
+    width: 309.188px;
+    margin: 0 auto;
+    height: 405px;
+  }
+}

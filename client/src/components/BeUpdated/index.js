@@ -8,7 +8,7 @@ class BeUpdated  extends Component {
         <p>Want to stay updated?</p>
       </article>
 
-      <section  className="main-container">
+      <section className="main-container">
         <div>
           <p>We love to hang out in social networks. <br/>Come and say hello!</p>
           <p>
