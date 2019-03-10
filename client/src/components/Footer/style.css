@@ -1,3 +1,101 @@
 .footer-main-section {
-  background: red;
+  width: 84.5070422535%;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  overflow: visible;
+}
+
+.three-top-boxes {
+  overflow: hidden;
+  width: 84.5070422535%;
+  margin: 0 auto;
+}
+
+.three-top-boxes div {
+  width: 31.5789%;
+  margin-right: 30px;
+  background: #f7f7f7;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px 0;
+}
+
+.footer-body div:nth-child(3), .three-top-boxes div:nth-child(3) {
+  margin-right: 0;
+}
+
+.three-top-boxes div img {
+  margin-right: 10px;
+  width: 20px;
+  height: auto;
+}
+
+.three-top-boxes div span {
+  display: inline !important;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #202020;
+  font-weight: 400 !important;
+}
+
+.footer-body {
+  border-top: .5px solid #f7f7f7;
+  border-bottom: .5px solid #f7f7f7;
+  margin-top: 20px;
+  padding: 0 104.5px;
+  overflow: hidden;
+}
+
+.footer-body div {
+  float: left;
+  width: 31.5789%;
+  margin-right: 30px;
+  padding-top: 50px;
+}
+
+.footer-body h3 {
+  color: #202020;
+  text-align: center;
+  font-family: 'Montserrat' !important;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: -5px;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.footer-body a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  display: block;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  line-height: 24px;
+}
+
+.footer-body a:hover {
+  color: #7295b0;
+}
+
+.footer-body p {
+  text-align: center;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  font-weight: 400 !important;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  line-height: 20px;
+}
+
+.footer-body img {
+  padding: 0 15%;
+  box-sizing: border-box;
+  margin: 45px auto 25px;
+  max-width: 100%;
 }
