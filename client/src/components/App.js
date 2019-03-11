@@ -7,6 +7,7 @@ import FeaturedProducts from './FeaturedProducts';
 import OurJournal from './OurJournal';
 import BeUpdated from './BeUpdated';
 import Footer from './Footer';
+import OurStoryAboutUs from './OurStoryAboutUs';
 import './App.css';
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <OurJournal />
         <BeUpdated />
         <Footer />
+        <OurStoryAboutUs />
       </section>
     </main>
   }

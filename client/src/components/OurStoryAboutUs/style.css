@@ -1,0 +1,74 @@
+.ourStoryAboutUs-main-section {
+  width: 64.3484%;
+  margin: 0 auto;
+}
+
+.ourStoryAboutUs-main-section p:nth-child(1) {
+  display: inline;
+  font-family: 'Montserrat';
+  margin-top: 15px !important;
+  font-size: 10px;
+  color: #d4bf9a;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 300 !important;
+}
+
+
+.ourStoryAboutUs-main-section p:nth-child(2) {
+  margin-top: 15px;
+  font-style: normal;
+  margin: 0 0 24px;
+  font-family: 'Majesti', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-size: 38px;
+  line-height: 108%;
+  padding-left: 0px;
+  padding-right: 10%;
+  text-align: left;
+  color: #2f3039;
+  font-weight: 500 !important;
+}
+
+.ourStoryAboutUs-main-section p:nth-child(3) {
+  margin-top: -10px;
+  color: #7f7f7f;
+  padding-left: 0px;
+  letter-spacing: 0.7px;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  text-align: inherit;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 24px;
+  word-wrap: break-word;
+}
+
+.ourStoryAboutUs-main-section figure img {
+  width: 419.031px;
+  width: 48.26%;
+  height: 251.406px;
+}
+
+.ourStoryAboutUs-main-section figure img:nth-child(2) {
+  float: right;
+}
+
+@media only screen and (max-width: 425px) {
+  .ourStoryAboutUs-main-section figure img {
+    width: 100%;
+  }
+  .ourStoryAboutUs-main-section p:nth-child(2) {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ourStoryAboutUs-main-section p:nth-child(2) {
+    font-size: 22px;
+  }
+}
