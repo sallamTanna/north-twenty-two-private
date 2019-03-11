@@ -9,6 +9,7 @@ import BeUpdated from './BeUpdated';
 import Footer from './Footer';
 import OurStoryAboutUs from './OurStoryAboutUs';
 import OurStoryOurMission from './OurStoryOurMission';
+import OurStoryProduction from './OurStoryProduction';
 import './App.css';
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Footer />
         <OurStoryAboutUs />
         <OurStoryOurMission />
+        <OurStoryProduction />
       </section>
     </main>
   }
