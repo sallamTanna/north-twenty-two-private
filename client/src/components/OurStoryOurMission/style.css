@@ -1,10 +1,11 @@
-.ourStoryAboutUs-main-section {
+.ourStoryOurMission-main-section {
   width: 64.3484%;
   margin: 0 auto;
   overflow: hidden;
+  margin-top: 110px;
 }
 
-.ourStoryAboutUs-main-section p:nth-child(1) {
+.ourStoryOurMission-main-section p:nth-child(1) {
   display: inline;
   font-family: 'Montserrat';
   margin-top: 15px !important;
@@ -19,7 +20,7 @@
 }
 
 
-.ourStoryAboutUs-main-section p:nth-child(2) {
+.ourStoryOurMission-main-section p:nth-child(2) {
   margin-top: 15px;
   font-style: normal;
   margin: 0 0 24px;
@@ -33,7 +34,7 @@
   font-weight: 500 !important;
 }
 
-.ourStoryAboutUs-main-section p:nth-child(3) {
+.ourStoryOurMission-main-section p:nth-child(3) {
   margin-top: -10px;
   color: #7f7f7f;
   padding-left: 0px;
@@ -48,67 +49,56 @@
   word-wrap: break-word;
 }
 
-.ourStoryAboutUs-main-section figure img {
-  width: 31.02%;
+.ourStoryOurMission-main-section figure img {
+  width: 48.272%;
   height: 251.406px;
-  float: left;
-  margin-right: 15px;
 }
 
-.ourStoryAboutUs-main-section figure img:nth-child(3) {
-  margin-right: 0;
+.ourStoryOurMission-main-section figure img:nth-child(2) {
+  float: right;
 }
 
 @media only screen and (max-width: 1024px) {
-  .ourStoryAboutUs-main-section {
+  .ourStoryOurMission-main-section {
     width: 85.8826171875%;
     margin: 0 auto;
   }
 }
 
-@media only screen and (max-width: 678px) {
-  .ourStoryAboutUs-main-section {
-    width: 672.094px;
-  }
-}
-
 @media only screen and (max-width: 425px) {
-  .ourStoryAboutUs-main-section {
-    width: 394.25px;
-  }
-  .ourStoryAboutUs-main-section figure img {
+  .ourStoryOurMission-main-section figure img {
     width: 100%;
   }
-  .ourStoryAboutUs-main-section p:nth-child(2) {
+  .ourStoryOurMission-main-section p:nth-child(2) {
     font-size: 28px;
     width: 100%;
   }
 }
 
-
 @media only screen and (max-width: 425px) {
-  .ourStoryAboutUs-main-section {
+  .ourStoryOurMission-main-section {
     width: 394.25px;
   }
-  .ourStoryAboutUs-main-section figure img {
+  .ourStoryOurMission-main-section figure img {
     margin-bottom: 10px;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  .ourStoryAboutUs-main-section {
+  .ourStoryOurMission-main-section {
     width: 353.75px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .ourStoryAboutUs-main-section {
+  .ourStoryOurMission-main-section {
     width: 309.188px;
   }
-  .ourStoryAboutUs-main-section p:nth-child(2) {
+  .ourStoryOurMission-main-section p:nth-child(2) {
     font-size: 22px;
   }
-  .ourStoryAboutUs-main-section p:nth-child(3) {
+  .ourStoryOurMission-main-section p:nth-child(3) {
     font-size: 12px;
   }
 }

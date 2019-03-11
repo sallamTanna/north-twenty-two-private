@@ -4,12 +4,13 @@ import './style.css';
 class OurStoryAboutUs extends Component {
   render() {
     return <section className="ourStoryAboutUs-main-section">
-      <p>BE A PART OF NORTHTWENTYTWO</p>
-      <p>What makes us tick</p>
-      <p>We constantly challenge ourselves and strive to improve the brand we are proud to stand behind. Now, two years into our journey, we try to involve as many talented individuals as possible into our story. Our watches have made their way into over 40 countries, spread over five continents.</p>
+      <p>THE STORY OF NORTHTWENTYTWO</p>
+      <p>Crafted for the rough yet beautiful climate of the north</p>
+      <p>The NorthTwentytwo story is simple. It started with the idea of building high quality watches, ready to deal with the harsh, varied yet beautiful climate of the North. Our brand was founded in 2014, twenty two kilometers north of the Swedish capital, Stockholm. Hence the name NorthTwentytwo was born and our story began.</p>
       <figure>
-        <img src="https://northtwentytwo.com/wp-content/uploads/2016/12/Home.jpg" alt="img1" />
-        <img width="2000" height="1231" src="https://northtwentytwo.com/wp-content/uploads/2017/03/10.jpg" alt="img2" />
+        <img src="https://northtwentytwo.com/wp-content/uploads/2017/02/post1.jpg" />
+        <img src="https://northtwentytwo.com/wp-content/uploads/2017/05/Visby.jpg"/>
+        <img src="https://northtwentytwo.com/wp-content/uploads/2017/05/Visby.jpg" />
       </figure>
     </section>
   }
