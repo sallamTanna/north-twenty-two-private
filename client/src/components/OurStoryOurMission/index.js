@@ -3,7 +3,7 @@ import './style.css';
 
 class OurStoryOurMission extends Component {
   render() {
-    return <section className="ourStoryOurMission-main-section">
+    return <section className="ourStoryOurMission-main-section" id='mission'>
       <p>BE A PART OF NORTHTWENTYTWO</p>
       <p>What makes us tick</p>
       <p>We constantly challenge ourselves and strive to improve the brand we are proud to stand behind. Now, two years into our journey, we try to involve as many talented individuals as possible into our story. Our watches have made their way into over 40 countries, spread over five continents.</p>

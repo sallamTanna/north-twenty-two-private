@@ -115,11 +115,7 @@
   box-sizing: border-box;
 }
 
-.ourStoryProduction-production-readMore {
-  text-align: center;
-}
-
-.ourStoryProduction-production-readMore a {
+.ourStoryProduction-main-section a {
   color: #fff !important;
   font-weight: 600 !important;
   letter-spacing: 2px;
@@ -136,12 +132,12 @@
   display: inline-block;
 }
 
-.ourStoryProduction-production-readMore a:hover {
+.ourStoryProduction-main-section a:hover {
   background-color: #7295b0;
   border-color: #7295b0;
 }
 
-.ourStoryProduction-production-readMore span {
+.ourStoryProduction-main-section span {
   font-weight: 300;
 }
 

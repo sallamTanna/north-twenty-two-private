@@ -4,14 +4,17 @@ import OurStoryOurMission from '../components/OurStoryOurMission';
 import OurStoryProduction from '../components/OurStoryProduction';
 import OurStoryNavigationMenu from '../components/OurStoryNavigationMenu';
 import Footer from '../components/Footer';
+import './style.css';
 
 class OurStory extends Component {
   render() {
     return <main>
-      <OurStoryNavigationMenu />
-      <OurStoryAboutUs />
-      <OurStoryOurMission />
-      <OurStoryProduction />
+      <section className="ourStory-page">
+        <OurStoryNavigationMenu />
+        <OurStoryAboutUs />
+        <OurStoryOurMission />
+        <OurStoryProduction />
+      </section>
       <Footer />
     </main>
   }
