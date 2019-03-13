@@ -3,7 +3,7 @@ import './style.css';
 
 class OurStoryProduction extends Component {
   render() {
-    return <section className="ourStoryProduction-main-section">
+    return <section className="ourStoryProduction-main-section" id="production">
       <p>STEP BY STEP</p>
       <p>The Production of a timepiece</p>
       <p>At NorthTwentytwo we believe that a design should be both beautiful and functional. By combining minimalistic design with quality materials we craft timepieces that endures time. A watch built to last decades with both function and design in mind.</p>
@@ -33,10 +33,8 @@ class OurStoryProduction extends Component {
           <p>The entire packaging process takes place at our workshop in Stockholm, Sweden. Before packaging the timepieces by hand, in our eco-friendly watch boxes, we put them through an extensive polishing procedure to ensure a correct finish upon arrival</p>
         </div>
       </article>
-
-      <div className="ourStoryProduction-production-readMore">
-        <a href="#"><span>SHOP NOW</span></a>
-      </div>
+      
+      <a href="#"><span>SHOP NOW</span></a>
     </section>
   }
 }

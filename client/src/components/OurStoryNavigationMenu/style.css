@@ -1,0 +1,49 @@
+.ourStoryNavigationMenu-main-section {
+  width: 136px;
+  padding: 0 20px;
+  position: fixed;
+  top: 110px;
+}
+
+.ourStoryNavigationMenu-main-section ul {
+  list-style-type: none;
+  line-height: 160%;
+}
+
+.ourStoryNavigationMenu-main-section ul a {
+  text-decoration: none;
+  padding: 12px 0 12px 22px;
+  color: #303030;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display:inline-block;
+  box-sizing: border-box;
+  line-height: 160%;
+}
+
+.ourStoryNavigationMenu-main-section ul li span, .ourStoryNavigationMenu-main-section ul li i {
+  transition: opacity 2s ease-in-out;
+}
+
+.hideMenuIcon {
+  visibility: hidden;
+}
+
+.iconify[data-icon="simple-line-icons:list"] {
+  color: #303030;
+  opacity: .7;
+}
+
+.showMenuIcon1, .showMenuIcon2, .showMenuIcon3 {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ourStoryNavigationMenu-main-section {
+    visibility: hidden;
+  }
+}
