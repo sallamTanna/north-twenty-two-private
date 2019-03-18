@@ -60,7 +60,7 @@
   padding: 28px 60px;
 }
 
-.links-box > ul > li, .sub-menu > li{
+.links-box > ul > a > li, .sub-menu > a > lisub-menu {
   list-style-type: none;
   width: 318px;
   height: 19px;
@@ -69,16 +69,19 @@
   animation: liAnimation .5s;
 }
 
-.sub-menu > li {
+.sub-menu > a >   li {
   text-indent: 20px;
   animation: none;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.links-box > ul > li:not(:last-child), .sub-menu > li {
+.links-box > ul > a:not(:last-child) > li, .sub-menu > a > li {
   border-bottom: .1px solid #43444c;
 }
 
-.links-box  ul  li  a, .links-box  ul  li, .sub-menu li, .sub-menu li a {
+.links-box  ul  a li, .links-box  ul  a li, .sub-menu a li, .sub-menu a li {
   text-decoration: none;
   color: #f7f7f7;
   font-family: Montserrat;
@@ -88,7 +91,11 @@
   font-weight: 300;
 }
 
-.links-box ul li:hover > a, .sub-menu li:hover > a {
+.links-box ul > a, .sub-menu > a {
+  text-decoration: none;
+}
+
+.links-box ul > a:hover > li, .sub-menu li:hover > a {
   color: #7295b0;
   cursor: pointer;
 }
@@ -116,7 +123,7 @@
   width: 305px;
 }
 
-.links-box ul li:nth-child(2)::after {
+.links-box ul > a:nth-child(2) li::after {
   font-family: FontAwesome;
   content: "\00a0 \f0d7";
   color: #fff;
@@ -126,7 +133,7 @@
   display: none;
 }
 
-.sub-menu li:nth-child(2)::after {
+.sub-menu a:nth-child(2)::after {
   display: none;
 }
 

@@ -83,7 +83,7 @@
   background: #7295b0;
 }
 
-.ourStory-main-section div:nth-child(1) a:nth-child(4) span {
+.ourStory-main-section div:nth-child(1) a:nth-child(4) span a {
   text-transform :uppercase;
   display: inline-block;
   box-sizing: border-box;
@@ -93,6 +93,7 @@
   color: #fff;
   font-size: 10px;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .ourStory-main-section > div:nth-child(2) {
