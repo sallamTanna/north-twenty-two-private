@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import './App.css';
 import { Home, OurStory } from './pages';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends React.Component {
 
@@ -9,7 +10,10 @@ class App extends React.Component {
     return <main className="app">
       <Header />
       <section className="page-content">
-        <OurStory />
+        <Router>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/our-story" component={OurStory} />
+        </Router>
       </section>
     </main>
   }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import reactDom from 'react-dom';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import './style.css';
 
 class Menu extends Component{
@@ -46,18 +48,18 @@ class Menu extends Component{
 
       <nav className="links-box">
         <ul className="main-ul">
-          <li><a href="#HOME">HOME</a></li>
-          <li className="sub-menu-btn">WATCHES</li>
+          <a href="#HOME"><li>HOME</li></a>
+          <a><li className="sub-menu-btn">WATCHES</li></a>
           <div className="sub-menu">
-            <li><a href="#ALL WATCHES">ALL WATCHES</a></li>
-            <li><a href="#WOMEN'S">WOMEN'S</a></li>
-            <li><a href="#MEN'S">MEN'S</a></li>
+            <a href="#ALL WATCHES"><li>ALL WATCHES</li></a>
+            <a href="#WOMEN'S"><li>WOMEN'S</li></a>
+            <a href="#MEN'S"><li>MEN'S</li></a>
           </div>
-          <li><a href="#WRISTBANDS">WRISTBANDS</a></li>
-          <li><a href="#OUR STORY">OUR STORY</a></li>
-          <li><a href="#NORTHTWENTYTWO">#NORTHTWENTYTWO</a></li>
-          <li><a href="#JOURNAL">JOURNAL</a></li>
-          <li><a href="#SUPPORT">SUPPORT</a></li>
+          <a href="#WRISTBANDS"><li>WRISTBANDS</li></a>
+          <a href="/our-story"><li>OUR STORY</li></a>
+          <a href="#NORTHTWENTYTWO"><li>#NORTHTWENTYTWO</li></a>
+          <a href="#JOURNAL"><li>JOURNAL</li></a>
+          <a href="#SUPPORT"><li>SUPPORT</li></a>
         </ul>
         <footer className="nav-footer">
           © 2017 GILLBO GROUP AB. ALL RIGHTS RESERVED.
