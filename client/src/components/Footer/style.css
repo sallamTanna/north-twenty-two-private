@@ -142,6 +142,7 @@
 @media only screen and (max-width: 425px) {
   .footer-main-section {
     width: 394.25px;
+    margin-top: 100px;
   }
 
   .three-top-boxes {

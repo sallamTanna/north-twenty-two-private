@@ -78,3 +78,71 @@
 .journal-page div a:nth-child(5) i {
   color: #1985c9;
 }
+
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  .journal-page {
+    width: 85.8826171875%;
+    margin: 0 auto;
+  }
+
+  .journal-page section {
+    margin: 0 0 60px 170px;
+  }
+
+  .journal-page div {
+    width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .journal-page {
+    width: 672.094px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .journal-page div {
+    width: 100%;
+  }
+
+  .journal-page section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .journal-page section p, .journal-page section h1 {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .journal-page {
+    width: 394.25px;
+  }
+  .journal-page div {
+    float: none;
+  }
+  .journal-page div a i {
+    font-size: 25px;
+  }
+  .journal-page div a {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .journal-page {
+    width: 353.75px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .journal-page {
+    width: 309.188px;
+  }
+}
