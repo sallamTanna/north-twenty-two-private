@@ -15,7 +15,6 @@ class OurStory extends Component {
         <OurStoryOurMission />
         <OurStoryProduction />
       </section>
-      <Footer />
     </main>
   }
 }

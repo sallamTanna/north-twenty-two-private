@@ -58,7 +58,7 @@ class Menu extends Component{
           <a href="#WRISTBANDS"><li>WRISTBANDS</li></a>
           <a href="/our-story"><li>OUR STORY</li></a>
           <a href="#NORTHTWENTYTWO"><li>#NORTHTWENTYTWO</li></a>
-          <a href="#JOURNAL"><li>JOURNAL</li></a>
+          <a href="/journal-page"><li>JOURNAL</li></a>
           <a href="#SUPPORT"><li>SUPPORT</li></a>
         </ul>
         <footer className="nav-footer">
