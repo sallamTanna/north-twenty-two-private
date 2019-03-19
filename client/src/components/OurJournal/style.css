@@ -58,6 +58,10 @@
   padding: 30px;
 }
 
+.our-journal-main-section article a {
+  text-decoration: none;
+}
+
 .our-journal-main-section article h1 {
   line-height: 36px;
   font-weight: 400;
