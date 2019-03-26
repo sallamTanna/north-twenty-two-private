@@ -4,7 +4,6 @@
   margin: 0 auto;
   margin-bottom: 150px;
   padding-top: 50px;
-  opacity: 1;
 }
 
 .journal-page section {
@@ -74,9 +73,9 @@
 
 /******************** AllWatchesPage Page *************************************/
 .all-watches-page {
-  position: relative;
-  top:0px;
-  padding: 30px 88.5px;
+  width: 86.87916976%;
+  margin: 0 auto;
+  /* background: yellow; */
 }
 
 .all-watches-page h1 {
@@ -90,11 +89,11 @@
   line-height: 48px;
   font-style: normal;
   font-size: 32px;
-  margin: 0.67em 0;
 }
 
 .all-watches-page section {
   margin-bottom: 50px;
+  /* background: red; */
 }
 
 
@@ -108,7 +107,28 @@
     margin: 0 0 60px 170px;
   }
   .journal-page div {
-    width: 1024px;
+    margin-bottom: 50px;
+  }
+  .all-watches-page {
+    width: 85.8398%;
+    margin: 0 auto;
+  }
+   .one-featured-main-section, .select-option-button, .more-details, .one-featured-main-section li figure , .one-featured-main-section li figure img, .one-featured-main-section li {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+  }
+  .one-featured-main-section {
+    margin: 0 20px;
+  }
+  .one-featured-main-section li figure {
+    margin-bottom: 15px;
+  }
+  .all-watches-page section:nth-child(4n) {
+    margin-right: 0px;
+  }
+  .all-watches-page h1 {
+    padding: 0;
   }
 }
 
@@ -130,8 +150,10 @@
   .journal-page section p, .journal-page section h1 {
     font-size: 12px;
   }
+  .all-watches-page {
+    width: 87.4453%;
+  }
 }
-
 
 @media only screen and (max-width: 425px) {
   .journal-page {
@@ -145,6 +167,17 @@
   }
   .journal-page div a {
     margin-right: 20px;
+  }
+  .all-watches-page {
+    width: 93.783%;
+  }
+  .all-watches-page h1 {
+    font-size: 25px;
+  }
+  .one-featured-main-section, .select-option-button, .more-details, .one-featured-main-section li figure , .one-featured-main-section li figure img, .one-featured-main-section li {
+    width:  100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
