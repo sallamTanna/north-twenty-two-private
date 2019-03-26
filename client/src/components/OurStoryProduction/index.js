@@ -33,8 +33,10 @@ class OurStoryProduction extends Component {
           <p>The entire packaging process takes place at our workshop in Stockholm, Sweden. Before packaging the timepieces by hand, in our eco-friendly watch boxes, we put them through an extensive polishing procedure to ensure a correct finish upon arrival</p>
         </div>
       </article>
-      
-      <a href="#"><span>SHOP NOW</span></a>
+
+      <div className="shop-now-btn">
+        <a href="#"><span>SHOP NOW</span></a>
+      </div>
     </section>
   }
 }

@@ -3,7 +3,7 @@
   margin: 0 auto;
   overflow: hidden;
   margin-top: 110px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 
@@ -113,6 +113,10 @@
   font-weight: 300 !important;
   margin: 0 0 24px;
   box-sizing: border-box;
+}
+
+.shop-now-btn {
+  text-align: center;
 }
 
 .ourStoryProduction-main-section a {
