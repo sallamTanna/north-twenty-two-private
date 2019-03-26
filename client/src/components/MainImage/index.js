@@ -8,7 +8,7 @@ render(){return <div>
     <div>
     <p>CRAFTED FOR THE HARSH AND VARIED YET BEAUTIFUL CLIMATE OF THE NORTH</p>
     <p>Minimalistic Watches</p>
-    <p><a>SHOP NOW</a></p>
+    <p><a href="/store">SHOP NOW</a></p>
     </div>
   </section>
 </div>}
