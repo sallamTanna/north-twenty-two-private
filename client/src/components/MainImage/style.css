@@ -90,6 +90,10 @@
   cursor: pointer;
 }
 
+.main-image-main-section > div > p:nth-child(3)> a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 425px) {
   .main-image-main-section > div > p:nth-child(2) {
     font-size: 40px;
