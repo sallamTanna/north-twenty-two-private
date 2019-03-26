@@ -1,4 +1,5 @@
 .page-content {
   position: relative;
   top: 75px;
+  margin-bottom: 75px; /* This is so important to prevent elements from overlapping */
 }

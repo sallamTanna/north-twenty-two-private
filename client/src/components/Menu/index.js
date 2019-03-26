@@ -48,10 +48,10 @@ class Menu extends Component{
 
       <nav className="links-box">
         <ul className="main-ul">
-          <a href="#HOME"><li>HOME</li></a>
+          <a href="/"><li>HOME</li></a>
           <a><li className="sub-menu-btn">WATCHES</li></a>
           <div className="sub-menu">
-            <a href="#ALL WATCHES"><li>ALL WATCHES</li></a>
+            <a href="/all-watches-page"><li>ALL WATCHES</li></a>
             <a href="#WOMEN'S"><li>WOMEN'S</li></a>
             <a href="#MEN'S"><li>MEN'S</li></a>
           </div>
