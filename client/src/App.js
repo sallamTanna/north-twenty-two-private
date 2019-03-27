@@ -12,11 +12,11 @@ class App extends React.Component {
       <Header />
       <section className="page-content">
       <Router>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/our-story" component={OurStory} />
-          <Route exact path="/journal-page" component={JournalPage} />
-          <Route exact path="/all-watches-page" component={AllWatchesPage} />
-          <Route exact path="/detailed-watch-page" component={DetailedWatchPage} />
+          <Route exact path="/" component={ Home } />
+          <Route exact path="/our-story" component={ OurStory } />
+          <Route exact path="/journal-page" component={ JournalPage } />
+          <Route exact path="/all-watches-page" component={ AllWatchesPage } />
+          <Route exact path="/detailed-watch-page" component={ DetailedWatchPage } />
         </Router>
       </section>
       <Footer />

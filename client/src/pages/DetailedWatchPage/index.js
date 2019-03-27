@@ -4,7 +4,8 @@ import './style.css';
 class DetailedWatchPage extends Component {
   render() {
     return <main className="detailed-watch-page">
-      sallam
+      <section className="watch-images"></section>
+      <section className="watch-summary"></section>
     </main>
   }
 }
