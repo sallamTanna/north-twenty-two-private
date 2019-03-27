@@ -1,6 +1,7 @@
-import  Home from './Home.js';
-import  OurStory from './OurStory.js';
-import  JournalPage from './JournalPage.js';
-import  AllWatchesPage from './AllWatchesPage.js';
+import  Home from './Home';
+import  OurStory from './OurStory';
+import  JournalPage from './JournalPage';
+import  AllWatchesPage from './AllWatchesPage';
+import  DetailedWatchPage from './DetailedWatchPage';
 
-export { Home, OurStory, JournalPage, AllWatchesPage };
+export { Home, OurStory, JournalPage, AllWatchesPage, DetailedWatchPage };

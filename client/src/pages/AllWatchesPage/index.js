@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OneFeatured from '../components/OneFeatured';
+import { OneFeatured } from '../../components';
 import './style.css';
 
 class AllWatchesPage extends Component {
