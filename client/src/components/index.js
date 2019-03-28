@@ -13,5 +13,7 @@ import OurStoryNavigationMenu from './OurStoryNavigationMenu';
 import OurStoryOurMission from './OurStoryOurMission';
 import OurStoryProduction from './OurStoryProduction';
 import OneFeatured from './OneFeatured';
+import WatchSummary from './WatchSummary';
+import WatchImages from './WatchImages';
 
-export {BeUpdated, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction};
+export { BeUpdated, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction, WatchSummary, WatchImages };
