@@ -9,13 +9,10 @@ class WatchImages extends Component {
   changeSelectedImage = (imageIndex)=> {
     var arrayOfWatches = document.getElementsByClassName('watch-images-order-list')[0];
     var mainImage = document.getElementsByClassName('watch-images-main-image')[0];
-
     for (let i=0; i<arrayOfWatches.children.length; i++) {
       arrayOfWatches.children[i].style.opacity = '.5'
     }
-
     arrayOfWatches.children[imageIndex].style.opacity = '1';
-
     return this.props.selectedImage(imageIndex)
   }
 

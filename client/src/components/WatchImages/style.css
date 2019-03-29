@@ -1,6 +1,7 @@
 .watch-images-main-section {
   overflow: hidden;
   width: 47.003%;
+  float: left;
 }
 
 .watch-images-main-section ol {

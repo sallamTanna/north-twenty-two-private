@@ -1,9 +1,5 @@
 .detailed-watch-page {
   width: 84.5%;
   margin: 0 auto;
-  margin-bottom: 200px;
-}
-
-.isActive {
-  opacity: 1;
+  overflow: hidden;
 }
