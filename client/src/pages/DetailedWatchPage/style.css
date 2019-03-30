@@ -1,0 +1,33 @@
+.detailed-watch-page {
+  width: 84.5%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .detailed-watch-page {
+    width: 85.8826171875%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .detailed-watch-page {
+    width: 394.25px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .detailed-watch-page {
+    width: 353.75px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .detailed-watch-page {
+    width: 309.188px !important;
+  }
+}
