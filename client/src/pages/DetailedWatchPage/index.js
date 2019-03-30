@@ -16,7 +16,7 @@ class DetailedWatchPage extends Component {
   render() {
     return <main className="detailed-watch-page">
       <WatchImages src={this.state.selectedImage || this.state.watchCollection[0]} watchCollection={this.state.watchCollection} selectedImage={(index)=> this.changeSelectedImage(index)} />
-      
+
       <WatchSummary watchName={'sallam'} watchPrice={'15'} summary={'Saltarö is inspired by the Stockholm archipelago which is seen in many aspects of the design. Powered by a Swiss Ronda movement then protected by 316l stainless steel and dome sapphire crystal with anti reflective coating. The brushed light rose gold case combined with a white face gives the timepiece a refined look. Available with either a magnetic mesh or genuine Italian leather wristband.'} wristbandColors={this.state.wristbandColors} changeSelectedWristbandColor={(color)=>this.changeSelectedWristbandColor(color)} wristbandColor={this.state.selectedWristbandColor}/>
     </main>
   }

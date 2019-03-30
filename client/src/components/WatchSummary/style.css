@@ -123,3 +123,30 @@
   cursor: pointer;
   background-color: #7295b0;
 }
+
+@media only screen and (max-width: 768px) {
+  .watch-summary-main-section {
+    width: 672.094px;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .watch-summary-main-section {
+    width: 394.25px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .watch-summary-main-section {
+    width: 353.75px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .watch-summary-main-section {
+    width: 309.188px !important;
+    /* margin: 0 auto !important; */
+  }
+}
