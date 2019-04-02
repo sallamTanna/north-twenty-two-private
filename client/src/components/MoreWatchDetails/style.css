@@ -1,0 +1,90 @@
+.more-watch-details {
+border-top:  2px solid #f7f7f7;
+border-bottom:  2px solid #f7f7f7;
+margin-bottom: 150px;
+padding: 0 8%;
+overflow: hidden;
+}
+
+.more-watch-details div {
+  float: left;
+  margin: 60px 15px 60px 0;
+  padding: 0 15px;
+}
+
+.more-watch-details div h3 {
+  color: #303030;
+  font-family: Montserrat;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.more-watch-details div p {
+  font-weight: 300;
+  box-sizing: border-box;
+  color: #202020;
+  font-family: Montserrat,Verdana, Geneva, sans-serif;
+  text-align: inherit;
+  line-height: 24px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.more-watch-details div:nth-child(1) {
+  width: 510px;
+}
+
+.more-watch-details div:nth-child(2) {
+  width: 217.5px;
+}
+
+.more-watch-details div:nth-child(3) {
+  width: 217.5px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .more-watch-details div:nth-child(1) {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .more-watch-details {
+    width: 672.094px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .more-watch-details div:nth-child(1), .more-watch-details div:nth-child(2), .more-watch-details div:nth-child(3) {
+    width: 100%;
+  }
+  .more-watch-details div {
+    float: none;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .more-watch-details {
+    width: 394.25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .more-watch-details {
+    width: 353.75px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .more-watch-details {
+    width: 309.188px;
+  }
+}

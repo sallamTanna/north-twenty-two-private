@@ -4,6 +4,8 @@ import './style.css';
 class WatchSummary extends Component {
 
   changeSelectedWristbandColor = (color) => this.props.changeSelectedWristbandColor(color);
+  changeButtonText = () => this.props.changeButtonText();
+
 
   render() {
     return <section className="watch-summary-main-section">
@@ -17,7 +19,7 @@ class WatchSummary extends Component {
       </div>
 
       <input type="number" step="1" min="0" value="0"  />
-      <button>add to cart</button>
+      <button onClick={()=>this.changeButtonText()}>{this.props.buttonText}</button>
     </section>
   }
 }
