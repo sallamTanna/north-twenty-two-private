@@ -1,0 +1,94 @@
+.women-page {
+  width: 86.87916976%;
+  margin: 0 auto;
+}
+
+.women-page h1 {
+  padding-left: 30px;
+  color: #303030;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: normal;
+  font-family: Majesti;
+  line-height: 48px;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.women-page section {
+  margin-bottom: 50px;
+}
+
+/*************************** Media Queries ************************************/
+@media only screen and (max-width: 1024px) {
+  .journal-page {
+    width: 85.8826171875%;
+    margin: 0 auto;
+  }
+  .journal-page section {
+    margin: 0 0 60px 170px;
+  }
+  .journal-page div {
+    margin-bottom: 50px;
+  }
+  .women-page {
+    width: 85.8398%;
+    margin: 0 auto;
+  }
+   .one-featured-main-section, .select-option-button, .more-details, .one-featured-main-section li figure , .one-featured-main-section li figure img, .one-featured-main-section li {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+  }
+  .one-featured-main-section {
+    margin: 0 20px;
+  }
+  .one-featured-main-section li figure {
+    margin-bottom: 15px;
+  }
+  .women-page section:nth-child(4n) {
+    margin-right: 0px;
+  }
+  .women-page h1 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .journal-page {
+    width: 672.094px;
+    margin: 0 auto;
+    float: none;
+  }
+  .journal-page div {
+    width: 100%;
+  }
+  .journal-page section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .journal-page section p, .journal-page section h1 {
+    font-size: 12px;
+  }
+  .women-page {
+    width: 87.4453%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .women-page {
+    width: 93.783%;
+  }
+  .women-page h1 {
+    font-size: 25px;
+  }
+  .one-featured-main-section, .select-option-button, .more-details, .one-featured-main-section li figure , .one-featured-main-section li figure img, .one-featured-main-section li {
+    width:  100%;
+    margin: 0;
+    padding: 0;
+  }
+}
