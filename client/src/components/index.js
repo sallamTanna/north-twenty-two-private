@@ -11,9 +11,10 @@ import OneFeatured from './OneFeatured';
 import WatchImages from './WatchImages';
 import WatchSummary from './WatchSummary';
 import OurStoryAboutUs from './OurStoryAboutUs';
+import MoreWatchDetails from './MoreWatchDetails';
 import FeaturedProducts from './FeaturedProducts';
 import OurStoryOurMission from './OurStoryOurMission';
 import OurStoryProduction from './OurStoryProduction';
 import OurStoryNavigationMenu from './OurStoryNavigationMenu';
 
-export { BeUpdated, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction, WatchSummary, WatchImages };
+export { BeUpdated, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction, WatchSummary, WatchImages, MoreWatchDetails };

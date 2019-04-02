@@ -2,6 +2,7 @@
   overflow: hidden;
   width: 47.003%;
   float: left;
+  margin-right: 64px;
 }
 
 .watch-images-main-section ol {
@@ -46,6 +47,9 @@
 @media only screen and (max-width: 1024px) {
   .watch-images-main-section figure {
     width: 78%;
+  }
+  .watch-images-main-section {
+    margin-right: 0;
   }
 }
 

@@ -4,13 +4,17 @@
   overflow: hidden;
 }
 
+.detailed-watch-page .image-and-summary {
+  margin-bottom: 50px;
+  float:left;
+}
 
 
 @media only screen and (max-width: 1024px) {
   .detailed-watch-page {
     width: 85.8826171875%;
     margin: 0 auto;
-    margin-bottom: 150px;
+    margin-bottom: 30px;
   }
 }
 
