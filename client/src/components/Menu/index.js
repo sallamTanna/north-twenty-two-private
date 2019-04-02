@@ -52,7 +52,7 @@ class Menu extends Component{
           <a><li className="sub-menu-btn">WATCHES</li></a>
           <div className="sub-menu">
             <a href="/all-watches-page"><li>ALL WATCHES</li></a>
-            <a href="#WOMEN'S"><li>WOMEN'S</li></a>
+            <a href="/women-page"><li>WOMEN'S</li></a>
             <a href="/men-page"><li>MEN'S</li></a>
           </div>
           <a href="#WRISTBANDS"><li>WRISTBANDS</li></a>
