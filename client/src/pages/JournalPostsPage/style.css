@@ -1,0 +1,53 @@
+.journal-posts-page {
+  width: 86.87916976%;
+  margin: 0 auto;
+}
+
+.journal-posts-page h1 {
+  color: #303030;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: normal;
+  font-family: Majesti;
+  line-height: 48px;
+  font-style: normal;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .journal-posts-page {
+    width: 85.8826171875%;
+    margin: 0 auto;
+  }
+  .journal-posts-page section:nth-child(3n+1) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .journal-posts-page {
+    width: 672.094px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .journal-posts-page {
+    background: red;
+    width: 394.25px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .journal-posts-page {
+    width: 353.75px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .journal-posts-page {
+    width: 309.188px;
+  }
+}

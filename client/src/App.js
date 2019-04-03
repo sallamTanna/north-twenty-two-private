@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { Home, OurStory, JournalPage, AllWatchesPage, DetailedWatchPage, StorePage, MenPage, WomenPage, WristbandsPage  } from './pages';
+import { Home, OurStory, JournalPage, AllWatchesPage, DetailedWatchPage, StorePage, MenPage, WomenPage, WristbandsPage, JournalPostsPage  } from './pages';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
@@ -20,6 +20,7 @@ class App extends React.Component {
           <Route exact path="/journal-page" component={ JournalPage } />
           <Route exact path="/wristbands" component={ WristbandsPage  } />
           <Route exact path="/all-watches-page" component={ AllWatchesPage } />
+          <Route exact path="/journal-posts-page" component={ JournalPostsPage } />
           <Route exact path="/detailed-watch-page" component={ DetailedWatchPage } />
         </Router>
       </section>

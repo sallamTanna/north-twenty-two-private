@@ -6,7 +6,7 @@ class OurJournal extends Component {
   render() {
     return <section className="our-journal-main-section">
       <figure>
-        <a href="testtt">
+        <a href="/journal-posts-page">
           <div>
             <h3>Our Journal</h3>
             <p>read all posts</p>
