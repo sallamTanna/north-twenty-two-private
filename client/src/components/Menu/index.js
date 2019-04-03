@@ -55,7 +55,7 @@ class Menu extends Component{
             <a href="/women-page"><li>WOMEN'S</li></a>
             <a href="/men-page"><li>MEN'S</li></a>
           </div>
-          <a href="#WRISTBANDS"><li>WRISTBANDS</li></a>
+          <a href="/wristbands"><li>WRISTBANDS</li></a>
           <a href="/our-story"><li>OUR STORY</li></a>
           <a href="#NORTHTWENTYTWO"><li>#NORTHTWENTYTWO</li></a>
           <a href="/journal-page"><li>JOURNAL</li></a>
