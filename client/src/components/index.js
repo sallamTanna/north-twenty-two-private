@@ -1,5 +1,6 @@
 import Cart from './Cart';
 import Menu from './Menu';
+import Post from './Post';
 import Footer from './Footer';
 import Header from './Header';
 import OurStory from './OurStory';
@@ -17,4 +18,4 @@ import OurStoryOurMission from './OurStoryOurMission';
 import OurStoryProduction from './OurStoryProduction';
 import OurStoryNavigationMenu from './OurStoryNavigationMenu';
 
-export { BeUpdated, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction, WatchSummary, WatchImages, MoreWatchDetails };
+export { BeUpdated, Post, Cart, Categories, FeaturedProducts, Footer, Header, MainImage, Menu, OurJournal, OurStory, OurStoryAboutUs, OurStoryNavigationMenu, OneFeatured, OurStoryOurMission, OurStoryProduction, WatchSummary, WatchImages, MoreWatchDetails };
