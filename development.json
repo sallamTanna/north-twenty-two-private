@@ -1,0 +1,38 @@
+{
+ "app": {
+   "host": "",
+   "port": 3000,
+   "assetUrl": "http://app.joltmate.com/",
+   "verbose": true
+ },
+ "mongo": {
+   "uri": "mongodb://127.0.0.1:27017/joltmate"
+ },
+ "redis": {
+   "host": "127.0.0.1",
+   "port": 6379
+ },
+ "session": {
+   "secret": "Mjbh{$'Jt37-$_f++P;CQQt99-H(Xk"
+ },
+ "twilio": {
+   "sid": "ACb2cfbd12a048dda5ca0caaed5656bbb7",
+   "token": "22048134b6d3a637d9dfc0b1c7ca6833",
+   "phone": "+15028920605"
+ },
+ "google": {
+   "apiKey": "AIzaSyDXqYxVfBM3OpQBd2qAl35VreuI1zz7WlQ"
+ },
+ "apn": {
+    "key": "MWTY5TNWU8",
+    "team": "6S65XZH87R",
+    "topic": "com.joltmate.app"
+  },
+  "crypto": {
+    "secret": "nyQ'/+TLUSuPj.U({?,{DR)'~/8;J-"
+  },
+  "mailgun": {
+    "apiKey": "key-44004487c9b10ff4fee113bf6c7fa8dd",
+    "domain": "mg.joltmate.com"
+  }
+}

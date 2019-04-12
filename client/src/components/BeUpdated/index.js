@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import './style.css';
 
 class BeUpdated  extends Component {
@@ -40,3 +40,7 @@ class BeUpdated  extends Component {
 }
 
 export default BeUpdated ;
+
+
+
+
