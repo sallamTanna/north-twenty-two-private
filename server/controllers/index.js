@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const test = require('./test.js')
+const getAllWatches = require('./getAllWatches.js')
 
-router.get('/test', test.test)
+router.get('/getAllWatches', getAllWatches.getAllWatches)
 
 module.exports = router;
