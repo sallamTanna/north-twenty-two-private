@@ -1,14 +1,16 @@
 ﻿import React, { Component } from 'react';
-import './style.css';
+// import Raduim from 'radium';
+import classes from './style.css';
+import  './style.css';
 
 class BeUpdated  extends Component {
   render() {
-    return <section className="be-updated-main-section">
+    return <section className='beUpdatedMainSection'>
       <article>
         <p>Want to stay updated?</p>
       </article>
 
-      <section className="main-container">
+      <section className="classes.mainContainer">
         <div>
           <p>We love to hang out in social networks. <br/>Come and say hello!</p>
           <p>
@@ -40,7 +42,3 @@ class BeUpdated  extends Component {
 }
 
 export default BeUpdated ;
-
-
-
-

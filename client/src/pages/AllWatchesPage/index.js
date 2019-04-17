@@ -13,7 +13,11 @@ const loadingComponent = css`
 
 class AllWatchesPage extends Component {
   state = {
-    watchesList:[]
+    watchesList:[],
+  }
+
+  openDetailedPage = (watchId) => {
+    window.location = "/detailed-watch-page/"+watchId;
   }
 
   componentDidMount() {
@@ -23,7 +27,7 @@ class AllWatchesPage extends Component {
        headers :{'content-type': 'application/json'},
     })
      .then(response => response.json())
-     .then(response => this.setState({ watchesList: response.response }))
+     .then(response =>this.setState({ watchesList: response.response }))
      .catch((err) => { console.log('Error from front-end ', err) });
   }
 
@@ -31,7 +35,7 @@ class AllWatchesPage extends Component {
     return <div className="all-watches-page">
       <h1>Watches</h1>
       <section>
-        {this.state.watchesList.length>0? this.state.watchesList.map(watch => <OneFeatured name={watch.name} price={watch.price} src={watch.src} href={watch.href} />)
+        {this.state.watchesList.length>0? this.state.watchesList.map(watch => <OneFeatured name={watch.name} price={watch.price} src={watch.src} href={watch.href} onClick={()=> this.openDetailedPage(watch._id)} />)
         : <div style={ loadingDivStyle }><ClipLoader color={'#5d7b92'} css={ loadingComponent } /></div>
         }
       </section>
