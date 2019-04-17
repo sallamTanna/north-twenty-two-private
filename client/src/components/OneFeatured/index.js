@@ -7,13 +7,13 @@ class OneFeatured extends Component {
       <li>
           <figure>
             <img src={this.props.src} />
-            <a href={this.props.href}>
+            <a onClick={this.props.onClick}>
               <div className="select-option-button">
               <span>select options</span>
               </div>
             </a>
           </figure>
-          
+
           <div className="more-details">
               <h3>{this.props.name}</h3>
               <span>{this.props.price}<span className="lighter-span"> KR</span></span>

@@ -1,15 +1,38 @@
 import React, { Component } from 'react';
 import { Post } from '../../components';
+import { ClipLoader } from 'react-spinners';
+import { css } from '@emotion/core';
 import './style.css';
+const loadingDivStyle = {
+  textAlign: 'center',
+};
+const loadingComponent = css`
+    padding: 20px;
+    margin-bottom: 80px;
+`;
 
 class JournalPostsPage extends Component {
   state = {
-    posts: [{src:'https://northtwentytwo.com/wp-content/uploads/2016/06/Trondheim-Theme-4.jpg-1024x1024-960x960.jpeg', date:'08 . 22 . 17', title:'ANTI-REFLECTIVE COATING', summary:'Using anti-reflective coating is usually common among models from very high-end and expensive watch brands. An abbreviation you might have…'}, {src:'https://northtwentytwo.com/wp-content/uploads/2016/11/saltaro-42m-960x960.jpg', date:'08 . 22 . 17', title:'MAGNETIC MESH WRISTBAND', summary:'We are the first regular watch brand to introduced stainless steel mesh wristbands with a magnetic closure. By regular we do not…'}, {src:'https://northtwentytwo.com/wp-content/uploads/2017/06/mesh-960x960.jpg', date:'08 . 22 . 17', title:'THE NORTHTWENTYTWO STORY', summary:'This is a journal about how NorthTwentytwo transitioned from dream to reality. We will cover this in three short segments,…'}, {src:'https://northtwentytwo.com/wp-content/uploads/2016/06/Trondheim-Theme-4.jpg-1024x1024-960x960.jpeg', date:'08 . 22 . 17', title:'THE NORTHTWENTYTWO STORY', summary:'This is a journal about how NorthTwentytwo transitioned from dream to reality. We will cover this in three short segments,…'},  {src:'https://northtwentytwo.com/wp-content/uploads/2016/06/Trondheim-Theme-4.jpg-1024x1024-960x960.jpeg', date:'08 . 22 . 17', title:'THE NORTHTWENTYTWO STORY', summary:'This is a journal about how NorthTwentytwo transitioned from dream to reality. We will cover this in three short segments,…'},  {src:'https://northtwentytwo.com/wp-content/uploads/2016/06/Trondheim-Theme-4.jpg-1024x1024-960x960.jpeg', date:'08 . 22 . 17', title:'THE NORTHTWENTYTWO STORY', summary:'This is a journal about how NorthTwentytwo transitioned from dream to reality. We will cover this in three short segments,…'}]
+    posts: [],
   }
+
+componentDidMount() {
+
+  fetch('/getAllPosts', {
+     method: 'get',
+     credentials: 'same-origin',
+     headers :{'content-type': 'application/json'},
+  })
+   .then(response => response.json())
+   .then(response => { this.setState({ posts: response.response })})
+   .catch((err) => { console.log('Error from front-end ', err) });
+}
+
   render() {
     return <main className="journal-posts-page">
       <h1>A Independent Watch Brand</h1>
-      {this.state.posts.map(post => <Post src={post.src} date={post.date} title={post.title} summary={post.summary}/>)}
+      {this.state.posts.length > 0? this.state.posts.map(post => <Post src={post.src} date={post.date.split(['T'])[0]} title={post.title} summary={post.summary}/>)
+      : <div style={ loadingDivStyle }><ClipLoader color={'#5d7b92'} css={ loadingComponent } /></div>}
     </main>
   }
 }
