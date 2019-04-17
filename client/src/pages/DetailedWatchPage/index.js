@@ -22,7 +22,7 @@ class DetailedWatchPage extends Component {
        body: JSON.stringify( {watchId: window.location.pathname.split('/')[2]} )
     })
      .then(response => response.json())
-     .then(response => { console.log('ttttttttt', response); this.setState({ watch: response.response})})
+     .then(response => this.setState({ watch: response.response}) )
      .catch((err) => { console.log('Error from front-end ', err) });
   }
 
@@ -30,10 +30,8 @@ class DetailedWatchPage extends Component {
     return <article>
 
       <main className="detailed-watch-page">
-        <section className="image-and-summary">
-          {this.state.watch.name? <WatchImages src={this.state.selectedImage || this.state.watch.imgs_src[0] } watchCollection={this.state.watch.imgs_src} selectedImage={(index)=> this.changeSelectedImage(index)} />
-            :null
-          }
+
+          {this.state.watch.name? <section className="image-and-summary"><WatchImages src={this.state.selectedImage || this.state.watch.imgs_src[0] } watchCollection={this.state.watch.imgs_src} selectedImage={(index)=> this.changeSelectedImage(index)} />
           <WatchSummary
             watchName={this.state.watch.name}
             watchPrice={this.state.watch.price}
@@ -44,7 +42,10 @@ class DetailedWatchPage extends Component {
             buttonText={this.state.buttonText}
             changeButtonText={()=>this.changeButtonText()}
           />
-        </section>
+          </section>
+            :null
+          }
+
       </main>
 
       <MoreWatchDetails watchName={this.state.watch.name} more_info={this.state.watch.more_info} specefications={this.state.watch.specefications} dimensions={this.state.watch.dimensions}/>

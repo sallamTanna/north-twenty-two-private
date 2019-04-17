@@ -11,16 +11,12 @@ class OurStoryNavigationMenu extends Component {
 
   showMenuIcon = (i)=> {
     if(i===1) {
-      console.log(this.state.showMenuIcon1);
       return this.setState({showMenuIcon1: true, showMenuIcon2: false, showMenuIcon3: false})
-      console.log(this.state.showMenuIcon1);
     }
     if(i===2) {
-      console.log(i);
       this.setState({showMenuIcon1: false, showMenuIcon2: true, showMenuIcon3: false})
     }
     if(i===3) {
-      console.log(i);
       this.setState({showMenuIcon1: false, showMenuIcon2: false, showMenuIcon3: true})
     }
   }
